@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Roboto';
+    background-color: #FFFFFF;
 }
 
 
@@ -48,6 +49,34 @@ a {
     letter-spacing: 0.02em;
 
     color: #212121;
+}
+
+.studio-link:current {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+
+}
+
+.portfolio-link:current {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+}
+
+.contacts-link:current {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #2196F3;
 }
 
 .studio-link:hover {
@@ -149,6 +178,98 @@ a {
 
 }
 
+/*Стилі Роботи*/
+
+
+
+.hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+
+}
+
+/*Кнопки фільтра*/
+
+.filter-list {
+    list-style-type: none;
+}
+
+
+
+.filter-button {
+    width: 125px;
+    height: 38px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.filter-button:hover {
+        width: 125px;
+        height: 38px;
+        background-color: #2196F3;
+        border-radius: 4px;
+        border: none;
+        text-align: center;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #ffffff;
+
+}
+
+/*Список робіт*/
+
+.samples-list {
+    list-style-type: none;
+}
+
+.sample {
+    width: 370px;
+    height: 404px;
+
+}
+
+.sample-title {
+    
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+
+
+.sample-descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
  /*Стилі Підвал*/
 
  .basement {
@@ -200,4 +321,25 @@ a {
      line-height: 24px;
      letter-spacing: 0.03em;
      color: rgba(255, 255, 255, 0.6);
+ }
+
+ .address-info:hover {
+     font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 24px;
+     letter-spacing: 0.03em;
+     color: #2196F3;
+
+ }
+
+ .address-contact-info:hover {
+     font-style: normal;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 24px;
+     letter-spacing: 0.03em;
+     color: #2196F3;
+
  }
