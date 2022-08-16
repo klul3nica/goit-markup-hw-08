@@ -1,10 +1,11 @@
 :root {
+
     --main-color: #FFFFFF;
     --secondary-main-color: #2F303A;
     --logo-color-1: #2196F3;
     --logo-color-2: #000000;
     --logo-color-2-footer: #FFFFFF;
-    --title-color: #212121;
+    --title-color:#212121;
     --text-color: #757575;
 }
 
@@ -18,8 +19,9 @@
 }
 
 body {
-    font-family: 'Roboto';
-    background-color: #FFFFFF;
+    font-family: 'Roboto',sans-serif;
+    background-color: var(--main-color);
+    letter-spacing: 0.03;
 }
 
 
@@ -29,22 +31,22 @@ a {
 }
 
 .logo-el-1 {
-    color: #2196F3;
-    font-family: 'Raleway';
+    color: var(--logo-color-1);
+    font-family: 'Raleway',sans-serif;
     
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2;
     letter-spacing: 0.03em;
 }
 
 .logo-el-2 {
-    color: #000000;
-    font-family: 'Raleway';
+    color: var(--logo-color-2);
+    font-family: 'Raleway',sans-serif;
     
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2;
     letter-spacing: 0.03em;
 }
 
@@ -56,18 +58,18 @@ a {
     
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
     letter-spacing: 0.02em;
 
-    color: #212121;
+    color: var(--title-color);;
 }
 
 .studio-link:focus {
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
     letter-spacing: 0.02em;
-    color: #2196F3;
+    background-color: var(--logo-color-1);
 
 }
 
@@ -76,36 +78,36 @@ a {
     
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
     letter-spacing: 0.02em;
-    color: #2196F3;
+    background-color: var(--logo-color-1);
 }
 
 .portfolio-link {
     
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
     letter-spacing: 0.02em;
 
-    color: #212121;
+    color: var(--title-color);
 }
 
 .portfolio-link:focus {
     font-weight: 500;
         font-size: 14px;
-        line-height: 16px;
+        line-height: 1.1;
         letter-spacing: 0.02em;
-        color: #2196F3;
+        background-color: var(--logo-color-1);
 }
 
 .portfolio-link:hover {
     
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
     letter-spacing: 0.02em;
-    color: #2196F3;
+    background-color: var(--logo-color-1);
 
  
 }
@@ -114,53 +116,53 @@ a {
     
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
     letter-spacing: 0.02em;
-    color: #212121
+    color: var(--title-color);
 
 }
 
 .contacts-link:focus {
     font-weight: 500;
         font-size: 14px;
-        line-height: 16px;
+        line-height: 1.1;
         letter-spacing: 0.02em;
-        color: #2196F3;
+        background-color: var(--logo-color-1);
 }
 
 .contacts-link:hover {
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
     letter-spacing: 0.02em;
-    color: #2196F3;
+    background-color: var(--logo-color-1);
 
 }
 
 .studio-link:current {
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
     letter-spacing: 0.02em;
-    color: #2196F3;
+    background-color: var(--logo-color-1);
 
 }
 
 .portfolio-link:current {
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
     letter-spacing: 0.02em;
-    color: #2196F3;
+    background-color: var(--logo-color-1);
 }
 
 .contacts-link:current {
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
     letter-spacing: 0.02em;
-    color: #2196F3;
+    background-color: var(--logo-color-1);
 }
 
 .contact-info {
@@ -171,7 +173,7 @@ a {
     
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
     letter-spacing: 0.02em;
     color: #757575;
 }
@@ -180,9 +182,9 @@ a {
     font-family: 'Roboto';
         font-weight: 500;
         font-size: 14px;
-        line-height: 16px;
+        line-height: 1.1;
         letter-spacing: 0.02em;
-        color: #2196F3;
+        background-color: var(--logo-color-1);
 
 }
 
@@ -190,7 +192,7 @@ a {
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
     letter-spacing: 0.02em;
     color:#2196F3;
 }
@@ -199,7 +201,7 @@ a {
     
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
     letter-spacing: 0.02em;
     color: #757575;
 }
@@ -208,25 +210,25 @@ a {
     font-family: 'Roboto';
         font-weight: 500;
         font-size: 14px;
-        line-height: 16px;
+        line-height: 1.1;
         letter-spacing: 0.02em;
-        color: #2196F3;
+        background-color: var(--logo-color-1);
 }
 
 .phone:hover {
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
     letter-spacing: 0.02em;
-    color: #2196F3;
+    background-color: var(--logo-color-1);
 
 }
 
 /*Стилі Шапка*/
 
 .quote-section {
-    background-color: #2F303A;
+    background-color: var(--secondary-main-color);
     width: 1600px;
     height: 600px;
 }
@@ -238,20 +240,20 @@ a {
     line-height: 60px;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--main-color);
 }
 
 .order-button {
-    width: 216px;
+    width: 21.1;
     height: 50px;
-    background-color: #2196F3;
+    background-color: var(--logo-color-1);
     border-radius: 4px;
     border: none;
     text-align: center;
 }
 
 .order-button:hover {
-    width: 216px;
+    width: 21.1;
     height: 50px;
     background-color: #188CE8;
     border-radius: 4px;
@@ -261,7 +263,7 @@ a {
 }
 
 .order-button:focus {
-    width: 216px;
+    width: 21.1;
         height: 50px;
         background-color: #188CE8;
         border-radius: 4px;
@@ -272,13 +274,13 @@ a {
 
 .make-an-order {
     
-    font-style: normal;
+    
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;        
+    line-height: 1.9;        
     text-align: center;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
+    color: var(--main-color);
 }
 
 /*Особливості*/
@@ -302,36 +304,36 @@ a {
 
 .f-name {
     
-    font-style: normal;
+    
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
+    color: var(--title-color);
 }
 
 .f-descr {
     
-    font-style: normal;
+    
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--text-color);
 }
 
 /*Стилі Чим им займаємося*/
 
 .occup-title {
     
-    font-style: normal;
+    
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--title-color);
 }
 
 .occupation-list {
@@ -355,7 +357,7 @@ a {
     height: 368px;
     left: 215px;
     top: 1632px;
-    background: #FFFFFF;
+    background: var(--main-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
@@ -365,7 +367,7 @@ a {
     height: 368px;
     left: 215px;
     top: 1632px;
-    background: #FFFFFF;
+    background: var(--main-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
@@ -375,7 +377,7 @@ a {
     height: 368px;
     left: 215px;
     top: 1632px;
-    background: #FFFFFF;
+    background: var(--main-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
@@ -385,7 +387,7 @@ a {
     height: 368px;
     left: 215px;
     top: 1632px;
-    background: #FFFFFF;
+    background: var(--logo-color-2-footer);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
@@ -393,33 +395,33 @@ a {
 
 
 .our-team-title {
-    font-style: normal;
+    
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--title-color);
 }
  .member-name{
-    font-style: normal;
+    
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--title-color);
 
  }
 
  .member-descr{
-    font-style: normal;
+    
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--text-color);
 
  }
 
@@ -428,27 +430,27 @@ a {
  .basement {
     width: 1600px;
     height: 252px;
-    background-color: #2F303A;
+    background-color: var(--secondary-main-color);
  }
 
  .logof-el-1 {
-    color: #2196F3;
-    font-family: 'Raleway';
-    font-style: normal;
+    color: var(--logo-color-1);
+    font-family: 'Raleway',sans-serif;
+    
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2;
     letter-spacing: 0.03em;
 
  }
 
  .logof-el-2 {
-    color: #FFFFFF;
-    font-family: 'Raleway';
-    font-style: normal;
+    color: var(--logo-color-2-footer);
+    font-family: 'Raleway',sans-serif;
+    
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2;
     letter-spacing: 0.03em;
 
  }
@@ -464,11 +466,11 @@ a {
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--logo-color-2-footer);
  }
 
  .address-contact-info {
-    font-style: normal;
+    
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -483,18 +485,27 @@ a {
         font-size: 14px;
         line-height: 24px;
         letter-spacing: 0.03em;
-        color:#2196F3 ;
+        color:var(--logo-color-1) ;
 
  }
 
  .address-contact-info:hover {
-    font-style: normal;
+    
         font-weight: 400;
         font-size: 14px;
         line-height: 24px;
         letter-spacing: 0.03em;
-        color: #2196F3;
+        color: var(--logo-color-1);
 
+ }
+
+ .address-contact-info:focus {
+
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 24px;
+     letter-spacing: 0.03em;
+     color: var(--logo-color-1)
  }
 
 
