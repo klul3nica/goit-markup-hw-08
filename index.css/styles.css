@@ -74,7 +74,7 @@ a {
 }
 
 .studio-link:hover {
-    
+    cursor: pointer;
     
     font-weight: 500;
     font-size: 14px;
@@ -102,6 +102,7 @@ a {
 }
 
 .portfolio-link:hover {
+    cursor: pointer;
     
     font-weight: 500;
     font-size: 14px;
@@ -131,6 +132,7 @@ a {
 }
 
 .contacts-link:hover {
+    cursor: pointer;
     font-family: 'Roboto',sans-serif;
     font-weight: 500;
     font-size: 14px;
@@ -189,7 +191,7 @@ a {
 }
 
 .email:hover {
-    
+    cursor: pointer;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1;
@@ -480,6 +482,7 @@ a {
  }
 
  .address-info:hover {
+    cursor: pointer;
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
@@ -491,6 +494,7 @@ a {
  }
 
  .address-contact-info:hover {
+        cursor: pointer;
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
@@ -501,6 +505,7 @@ a {
  }
 
  .address-contact-info:focus {
+
     font-style: normal;
      font-weight: 400;
      font-size: 14px;
