@@ -1,3 +1,14 @@
+:root {
+    --main-color: #FFFFFF;
+    --secondary-main-color: #2F303A;
+    --logo-color-1: #2196F3;
+    --logo-color-2: #000000;
+    --logo-color-2-footer: #FFFFFF;
+    --title-color: #212121;
+    --text-color: #757575;
+}
+
+
 /*Стилі верхня лінія*/
 
 .top-line{
@@ -20,7 +31,7 @@ a {
 .logo-el-1 {
     color: #2196F3;
     font-family: 'Raleway';
-    font-style: normal;
+    
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
@@ -30,7 +41,7 @@ a {
 .logo-el-2 {
     color: #000000;
     font-family: 'Raleway';
-    font-style: normal;
+    
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
@@ -42,7 +53,7 @@ a {
 }
 
 .studio-link {
-    font-style: normal;
+    
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -51,9 +62,18 @@ a {
     color: #212121;
 }
 
+.studio-link:focus {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+
+}
+
 .studio-link:hover {
     
-    font-style: normal;
+    
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -63,7 +83,6 @@ a {
 
 .portfolio-link {
     
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -72,9 +91,16 @@ a {
     color: #212121;
 }
 
+.portfolio-link:focus {
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        color: #2196F3;
+}
+
 .portfolio-link:hover {
     
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -86,7 +112,6 @@ a {
 
 .contacts-link {
     
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -95,9 +120,16 @@ a {
 
 }
 
+.contacts-link:focus {
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        color: #2196F3;
+}
+
 .contacts-link:hover {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -107,7 +139,6 @@ a {
 }
 
 .studio-link:current {
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -117,7 +148,6 @@ a {
 }
 
 .portfolio-link:current {
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -126,7 +156,6 @@ a {
 }
 
 .contacts-link:current {
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -140,7 +169,6 @@ a {
 
 .email {
     
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -148,9 +176,18 @@ a {
     color: #757575;
 }
 
+.email:focus {
+    font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        color: #2196F3;
+
+}
+
 .email:hover {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -160,7 +197,6 @@ a {
 
 .phone {
     
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -168,9 +204,17 @@ a {
     color: #757575;
 }
 
+.phone:focus{
+    font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        color: #2196F3;
+}
+
 .phone:hover {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -189,7 +233,6 @@ a {
 
 .quote {
     
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
@@ -214,6 +257,16 @@ a {
     border-radius: 4px;
     border: none;
     text-align: center;
+
+}
+
+.order-button:focus {
+    width: 216px;
+        height: 50px;
+        background-color: #188CE8;
+        border-radius: 4px;
+        border: none;
+        text-align: center;
 
 }
 
