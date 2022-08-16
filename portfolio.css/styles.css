@@ -359,7 +359,7 @@ a {
  }
 
  .address-info {
-     font-family: 'Roboto';
+    font-style: 'Roboto', sans-serif;
      font-style: normal; 
      font-weight: 400;
      font-size: 14px;
@@ -369,7 +369,7 @@ a {
  }
 
  .address-contact-info {
-    
+    font-style: 'Roboto', sans-serif;
      font-weight: 400;
      font-size: 14px;
      line-height: 1.7;
@@ -378,7 +378,7 @@ a {
  }
 
  .address-info:hover {
-     font-family: 'Roboto';
+    font-style: 'Roboto', sans-serif;
     
      font-weight: 400;
      font-size: 14px;
@@ -389,7 +389,7 @@ a {
  }
 
  .address-contact-info:hover {
-    font-style: normal;
+    font-style: 'Roboto',sans-serif;
      font-weight: 400;
      font-size: 14px;
      line-height: 1.7;
@@ -399,7 +399,7 @@ a {
  }
 
  .address-contact-info:focus {
-        font-style: normal;
+        font-style: 'Roboto', sans-serif;
     
         font-weight: 400;
         font-size: 14px;
