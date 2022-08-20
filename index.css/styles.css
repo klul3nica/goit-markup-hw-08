@@ -37,7 +37,6 @@ a {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
-    letter-spacing: 0.03em;
 }
 
 .logo-el-2 {
@@ -47,7 +46,6 @@ a {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
-    letter-spacing: 0.03em;
 }
 
 .nav-menu {
@@ -255,6 +253,7 @@ a {
 }
 
 .order-button:hover {
+    cursor: pointer;
     width: 21.1;
     height: 50px;
     background-color: #188CE8;
@@ -310,7 +309,6 @@ a {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.1;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--title-color);
 }
@@ -321,7 +319,6 @@ a {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    letter-spacing: 0.03em;
     color: var(--text-color);
 }
 
@@ -334,7 +331,6 @@ a {
     font-size: 36px;
     line-height: 42px;
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--title-color);
 }
 
@@ -356,9 +352,6 @@ a {
 
 .member1 {
     width: 270px;
-    height: 368px;
-    left: 215px;
-    top: 1632px;
     background: var(--main-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
@@ -366,9 +359,6 @@ a {
 
 .member2 {
     width: 270px;
-    height: 368px;
-    left: 215px;
-    top: 1632px;
     background: var(--main-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
@@ -376,9 +366,6 @@ a {
 
 .member3 {
     width: 270px;
-    height: 368px;
-    left: 215px;
-    top: 1632px;
     background: var(--main-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
@@ -386,9 +373,6 @@ a {
 
 .member4 {
     width: 270px;
-    height: 368px;
-    left: 215px;
-    top: 1632px;
     background: var(--logo-color-2-footer);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
@@ -402,7 +386,6 @@ a {
     font-size: 36px;
     line-height: 42px;
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--title-color);
 }
  .member-name{
@@ -411,7 +394,6 @@ a {
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--title-color);
 
  }
@@ -422,7 +404,7 @@ a {
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-    letter-spacing: 0.03em;
+    
     color: var(--text-color);
 
  }
@@ -442,7 +424,7 @@ a {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
-    letter-spacing: 0.03em;
+    
 
  }
 
@@ -453,7 +435,7 @@ a {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
-    letter-spacing: 0.03em;
+    
 
  }
 
@@ -467,7 +449,7 @@ a {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    letter-spacing: 0.03em;
+    
     color: var(--logo-color-2-footer);
  }
 
@@ -477,7 +459,7 @@ a {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    letter-spacing: 0.03em;
+    
     color: rgba(255, 255, 255, 0.6);
  }
 
@@ -488,7 +470,6 @@ a {
         font-weight: 400;
         font-size: 14px;
         line-height: 24px;
-        letter-spacing: 0.03em;
         color:var(--logo-color-1) ;
 
  }
@@ -499,7 +480,6 @@ a {
         font-weight: 400;
         font-size: 14px;
         line-height: 24px;
-        letter-spacing: 0.03em;
         color: var(--logo-color-1);
 
  }
@@ -510,7 +490,6 @@ a {
      font-weight: 400;
      font-size: 14px;
      line-height: 24px;
-     letter-spacing: 0.03em;
      color: var(--logo-color-1)
  }
 

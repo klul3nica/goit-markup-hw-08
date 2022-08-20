@@ -247,28 +247,29 @@ a {
     border-radius: 4px;
     border: none;
     text-align: center;
-    font-family: 'Roboto';
+    font-family: inherit;
    
     font-weight: 500;
-    font-size: 1.1;
-    line-height: 26px;
+    font-size: 16px;
+    line-height: 1.1;
     text-align: center;
     letter-spacing: 0.03em;
     color:var(--title-color);;
 }
 
 .filter-button:hover {
+        cursor: pointer;
         width: 125px;
         height: 38px;
         background-color:var(--logo-color-1);
         border-radius: 4px;
         border: none;
         text-align: center;
-        font-family: 'Roboto';
+        font-family: inherit;
         
         font-weight: 500;
-        font-size: 1.1;
-        line-height: 26px;
+        font-size: 16px;
+        line-height: 1.1;
         text-align: center;
         letter-spacing: 0.03em;
         color: #ffffff;
@@ -282,11 +283,11 @@ a {
         border-radius: 4px;
         border: none;
         text-align: center;
-        font-family: 'Roboto';
+        font-family: inherit;
         
         font-weight: 500;
-        font-size: 1.1;
-        line-height: 26px;
+        font-size: 16px;
+        line-height: 1.1;
         text-align: center;
         letter-spacing: 0.03em;
         color: #ffffff;
@@ -309,7 +310,7 @@ a {
     
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;
     color:var(--title-color);;
 }
@@ -318,8 +319,8 @@ a {
 
 .sample-descr {
     font-weight: 400;
-    font-size: 1.1;
-    line-height: 30px;
+    font-size: 16px;
+    line-height: 1.1;
     letter-spacing: 0.03em;
     color: var(--text-color);
 }
@@ -370,6 +371,7 @@ a {
 
  .address-contact-info {
     font-style: 'Roboto', sans-serif;
+    font-style: normal;
      font-weight: 400;
      font-size: 14px;
      line-height: 1.7;
@@ -379,6 +381,7 @@ a {
 
  .address-info:hover {
     font-style: 'Roboto', sans-serif;
+    font-style: normal;
     cursor: pointer;
      font-weight: 400;
      font-size: 14px;
@@ -391,6 +394,7 @@ a {
  .address-contact-info:hover {
     cursor: pointer;
     font-style: 'Roboto',sans-serif;
+    font-style: normal;
      font-weight: 400;
      font-size: 14px;
      line-height: 1.7;
@@ -401,6 +405,7 @@ a {
 
  .address-contact-info:focus {
         font-style: 'Roboto', sans-serif;
+        font-style: normal;
         cursor: pointer;
         font-weight: 400;
         font-size: 14px;
