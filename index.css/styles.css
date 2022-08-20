@@ -18,6 +18,12 @@
     padding-right: 15px;
 }
 
+.img {
+    display: block;
+        max-width: 100%;
+        height: auto;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: var(--main-color);
@@ -207,7 +213,6 @@ a {
 .contact-info {
     list-style: none;
     display: flex;
-    margin-left: 345px;
     margin-left: 215px;
     margin-top: 32px;
     margin-bottom: 32px;
@@ -304,9 +309,9 @@ a {
     text-transform: uppercase;
     color: var(--main-color);
 
-    margin-left: 452px;
-    margin-right: 452px;
-    margin-top: 200px;
+    padding-left: 452px;
+    padding-right: 452px;
+    padding-top: 200px;
 }
 
 .order-button {
@@ -322,6 +327,7 @@ a {
     margin-right:692px ;
     
     margin-top: 30px;
+    margin-bottom: 200px;
 
     
 }
@@ -381,14 +387,15 @@ a {
 .features {
     list-style-type: none;
     display: flex;
+   
 }
 
 .feature1 {
     width: 270px;
     height: 98px;
 
-    padding-top: 94px;
-    margin-bottom: 118px;
+    
+    padding-bottom: 118px;
     margin-left: 215px;
     padding-top: 94px;
 }
@@ -399,7 +406,7 @@ a {
 
     margin-left: 30px;
     padding-top: 94px;
-    margin-bottom: 118px;
+    padding-bottom: 118px;
 }
 
 .feature3 {
@@ -408,14 +415,14 @@ a {
 
     margin-left: 30px;
     padding-top: 94px;
-    margin-bottom: 118px;
+    padding-bottom: 118px;
 }
 
 .feature4 {
     width: 270px;
     height: 98px;
 
-    margin-bottom: 118px;
+    padding-bottom: 118px;
     padding-top: 94px;
     margin-left: 30px;
     margin-right: 215px;
@@ -474,20 +481,20 @@ a {
 }
 
 .occup1 {
-    margin-left: 215px;
-    margin-right: 30px;
+    padding-left: 215px;
+    padding-right: 30px;
     padding-bottom: 94px;
 }
 
 .occup2 {
-    margin-right: 30px;
+    padding-right: 30px;
     padding-bottom: 94px;
 
 }
 
 .occup3 {
     
-    margin-right: 215px;
+    padding-right: 215px;
     padding-bottom: 94px;
 }
 
@@ -508,7 +515,7 @@ a {
     text-align: center;
     color: var(--title-color);
 
-    margin-bottom: 50px;
+    padding-bottom: 50px;
     padding-top: 94px;
 
 
@@ -519,6 +526,12 @@ a {
 
     display: flex;
     align-items: center;
+}
+
+.member-text {
+    padding-left: 83px;
+    padding-right: 83px;
+    padding-top: 30px;
 }
 
 .member1 {

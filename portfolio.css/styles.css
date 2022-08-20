@@ -12,6 +12,18 @@
 
 /*Стилі верхня лінія*/
 
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 .top-line {
     width: 1600px;
 
@@ -28,6 +40,15 @@ body {
 
 a {
     text-decoration: none;
+
+}
+
+.logo-top-line {
+    padding-left: 215px;
+    padding-right: 95px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+
 
 }
 
@@ -51,8 +72,15 @@ a {
     letter-spacing: 0.03em;
 }
 
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
 .nav-menu {
     list-style-type: none;
+    display: flex;
+    align-items: center;
 }
 
 .studio-link {
@@ -63,6 +91,8 @@ a {
     letter-spacing: 0.02em;
 
     color:var(--title-color);;
+
+    padding-right: 50px;
 }
 
 .studio-link:current {
@@ -108,7 +138,9 @@ a {
     line-height: 1.1;
     letter-spacing: 0.02em;
 
-    color:var(--title-color);;
+    color:var(--title-color);
+
+    padding-right: 50px;
 }
 
 .portfolio-link:hover {
@@ -131,6 +163,8 @@ a {
     line-height: 1.1;
     letter-spacing: 0.02em;
     color:var(--title-color);;
+
+    padding-right: 50px;
 }
 
 .contacts-link:hover {
@@ -146,6 +180,18 @@ a {
 
 .contact-info {
     list-style: none;
+    display: flex;
+    text-align: center;
+    margin-left: 345px;
+    margin-left: 215px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+
+
+
+
+
+
 }
 
 .email {
@@ -156,6 +202,8 @@ a {
     line-height: 1.1;
     letter-spacing: 0.02em;
     color: var(--text-color);
+
+    padding-right: 50px;
 }
 
 .email:hover {
@@ -166,6 +214,8 @@ a {
     line-height: 1.1;
     letter-spacing: 0.02em;
     color:var(--logo-color-1);
+
+    padding-right: 50px;
 }
 
 .phone {
