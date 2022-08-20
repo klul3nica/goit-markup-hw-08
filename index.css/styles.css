@@ -244,6 +244,7 @@ a {
 }
 
 .order-button {
+    font-family: inherit;
     width: 21.1;
     height: 50px;
     background-color: var(--logo-color-1);
@@ -253,6 +254,7 @@ a {
 }
 
 .order-button:hover {
+    font-family:inherit;
     cursor: pointer;
     width: 21.1;
     height: 50px;
@@ -264,6 +266,7 @@ a {
 }
 
 .order-button:focus {
+    font-family: inherit;
     width: 21.1;
         height: 50px;
         background-color: #188CE8;
@@ -274,6 +277,7 @@ a {
 }
 
 .make-an-order {
+    font-family: inherit;
     
     
     font-weight: 700;
