@@ -7,6 +7,7 @@
     --title-color:#212121;
     --text-color:#757575;
     --background-color-white: #F5F4FA;
+    --border: #ECECEC;
 }
 
 
@@ -26,6 +27,9 @@
 
 .top-line {
     width: 1600px;
+    display: flex;
+    border-bottom: var(--border);
+    
 
 
 }
@@ -45,7 +49,7 @@ a {
 
 .logo-top-line {
     padding-left: 215px;
-    padding-right: 95px;
+    
     padding-top: 24px;
     padding-bottom: 25px;
 
@@ -75,6 +79,9 @@ a {
 .navigation {
     display: flex;
     align-items: center;
+
+    padding-top: 32px;
+        padding-bottom: 32px;
 }
 
 .nav-menu {
@@ -92,7 +99,10 @@ a {
 
     color:var(--title-color);;
 
-    padding-right: 50px;
+    margin-left: 93px;
+    margin-right: 50px;
+    padding-top: 32px;
+        padding-bottom: 32px;
 }
 
 .studio-link:current {
@@ -140,7 +150,9 @@ a {
 
     color:var(--title-color);
 
-    padding-right: 50px;
+    margin-right: 50px;
+    padding-top: 32px;
+        padding-bottom: 32px;
 }
 
 .portfolio-link:hover {
@@ -162,9 +174,11 @@ a {
     font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.02em;
-    color:var(--title-color);;
+    color:var(--title-color);
 
-    padding-right: 50px;
+    margin-right: 344px;
+    padding-top: 32px;
+        padding-bottom: 32px;
 }
 
 .contacts-link:hover {
@@ -181,17 +195,9 @@ a {
 .contact-info {
     list-style: none;
     display: flex;
-    text-align: center;
-    margin-left: 345px;
-    margin-left: 215px;
-    margin-top: 32px;
-    margin-bottom: 32px;
-
-
-
-
-
-
+    
+    
+    
 }
 
 .email {
@@ -203,7 +209,11 @@ a {
     letter-spacing: 0.02em;
     color: var(--text-color);
 
-    padding-right: 50px;
+    
+    margin-right: 50px;
+    padding-top: 32px;
+        padding-bottom: 32px;
+
 }
 
 .email:hover {
@@ -215,7 +225,7 @@ a {
     letter-spacing: 0.02em;
     color:var(--logo-color-1);
 
-    padding-right: 50px;
+    
 }
 
 .phone {
@@ -226,6 +236,12 @@ a {
     line-height: 1.1;
     letter-spacing: 0.02em;
     color: var(--text-color);
+
+    margin-right: 215px;
+    padding-top: 32px;
+        padding-bottom: 32px;
+
+    
 }
 
 .phone:hover {
@@ -287,11 +303,14 @@ a {
 
 .filter-list {
     list-style-type: none;
+
+    display: flex;
+    
 }
 
 
 
-.filter-button {
+.filter-button1 {
     width: 125px;
     height: 38px;
     background-color: var(--background-color-white);
@@ -306,9 +325,13 @@ a {
     text-align: center;
     letter-spacing: 0.03em;
     color:var(--title-color);;
+
+    margin-left: 512px;
+        margin-right: 8px;
+        
 }
 
-.filter-button:hover {
+.filter-button1:hover {
         cursor: pointer;
         width: 125px;
         height: 38px;
@@ -327,7 +350,7 @@ a {
 
 }
 
-.filter-button:focus {
+.filter-button1:focus {
     width: 125px;
         height: 38px;
         background-color:var(--logo-color-1);
@@ -345,15 +368,248 @@ a {
 
 }
 
+.filter-button2 {
+    width: 125px;
+    height: 38px;
+    background-color: var(--background-color-white);
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+    font-family: inherit;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+    
+    margin-right: 8px;
+    
+}
+
+.filter-button2:hover {
+    cursor: pointer;
+    width: 125px;
+    height: 38px;
+    background-color: var(--logo-color-1);
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+    font-family: inherit;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--logo-color-2-footer);
+
+}
+
+.filter-button2:focus {
+    width: 125px;
+    height: 38px;
+    background-color: var(--logo-color-1);
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+    font-family: inherit;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--logo-color-2-footer);
+
+}
+
+.filter-button3 {
+    width: 125px;
+    height: 38px;
+    background-color: var(--background-color-white);
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+    font-family: inherit;
+   
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color:var(--title-color);
+
+    margin-right: 8px;
+    
+}
+
+.filter-button3:hover {
+        cursor: pointer;
+        width: 125px;
+        height: 38px;
+        background-color:var(--logo-color-1);
+        border-radius: 4px;
+        border: none;
+        text-align: center;
+        font-family: inherit;
+        
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.1;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--logo-color-2-footer);
+
+}
+
+.filter-button3:focus {
+    width: 125px;
+        height: 38px;
+        background-color:var(--logo-color-1);
+        border-radius: 4px;
+        border: none;
+        text-align: center;
+        font-family: inherit;
+        
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.1;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--logo-color-2-footer);
+
+}
+
+.filter-button4 {
+    width: 125px;
+    height: 38px;
+    background-color: var(--background-color-white);
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+    font-family: inherit;
+   
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color:var(--title-color);
+
+    margin-right: 8px;
+}
+
+.filter-button4:hover {
+        cursor: pointer;
+        width: 125px;
+        height: 38px;
+        background-color:var(--logo-color-1);
+        border-radius: 4px;
+        border: none;
+        text-align: center;
+        font-family: inherit;
+        
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.1;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--logo-color-2-footer);
+
+}
+
+.filter-button4:focus {
+    width: 125px;
+        height: 38px;
+        background-color:var(--logo-color-1);
+        border-radius: 4px;
+        border: none;
+        text-align: center;
+        font-family: inherit;
+        
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.1;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--logo-color-2-footer);
+
+}
+
+.filter-button5 {
+    width: 125px;
+    height: 38px;
+    background-color: var(--background-color-white);
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+    font-family: inherit;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+    
+    margin-right: 513px;
+}
+
+.filter-button5:hover {
+    cursor: pointer;
+    width: 125px;
+    height: 38px;
+    background-color: var(--logo-color-1);
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+    font-family: inherit;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--logo-color-2-footer);
+
+}
+
+.filter-button5:focus {
+    width: 125px;
+    height: 38px;
+    background-color: var(--logo-color-1);
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+    font-family: inherit;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--logo-color-2-footer);
+
+}
+
 /*Список робіт*/
+
+.samples {
+    width: 1170px;
+}
 
 .samples-list {
     list-style-type: none;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
 .sample {
-    width: 370px;
-    height: 404px;
+    flex-basis: calc((1170px-60px)/3);
 
 }
 
@@ -382,6 +638,12 @@ a {
      width: 1600px;
      height: 252px;
      background-color: var(--secondary-main-color);
+ }
+
+ .logo-footer {
+    margin-left: 215px;
+    padding-top: 60px;
+    margin-bottom: 20px;
  }
 
  .logof-el-1 {
@@ -418,6 +680,8 @@ a {
      line-height: 1.7;
      letter-spacing: 0.03em;
      color: var(--logo-color-2-footer);
+
+     margin-left: 215px;
  }
 
  .address-contact-info {
@@ -428,6 +692,8 @@ a {
      line-height: 1.7;
      letter-spacing: 0.03em;
      color: rgba(255, 255, 255, 0.6);
+
+     margin-left: 215px;
  }
 
  .address-info:hover {
