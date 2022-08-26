@@ -13,11 +13,7 @@
 
 /*Стилі верхня лінія*/
 
-.container {
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
+
 
 .img {
     display: block;
@@ -48,7 +44,7 @@ a {
 }
 
 .logo-top-line {
-    padding-left: 215px;
+    margin-right: 93px;
     
     padding-top: 24px;
     padding-bottom: 25px;
@@ -80,8 +76,7 @@ a {
     display: flex;
     align-items: center;
 
-    padding-top: 32px;
-        padding-bottom: 32px;
+    
 }
 
 .nav-menu {
@@ -99,10 +94,9 @@ a {
 
     color:var(--title-color);;
 
-    margin-left: 93px;
+    
     margin-right: 50px;
-    padding-top: 32px;
-        padding-bottom: 32px;
+   
 }
 
 .studio-link:current {
@@ -151,8 +145,7 @@ a {
     color:var(--title-color);
 
     margin-right: 50px;
-    padding-top: 32px;
-        padding-bottom: 32px;
+    
 }
 
 .portfolio-link:hover {
@@ -177,8 +170,7 @@ a {
     color:var(--title-color);
 
     margin-right: 344px;
-    padding-top: 32px;
-        padding-bottom: 32px;
+    
 }
 
 .contacts-link:hover {
@@ -195,6 +187,8 @@ a {
 .contact-info {
     list-style: none;
     display: flex;
+
+    margin-left: auto;
     
     
     
@@ -283,6 +277,11 @@ a {
 
 /*Стилі Роботи*/
 
+.portfolio-content {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 
 
 .hidden {
@@ -305,14 +304,19 @@ a {
     list-style-type: none;
 
     display: flex;
+
+    padding: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 50px;
     
 }
 
 
 
 .filter-button1 {
-    width: 125px;
-    height: 38px;
+    
     background-color: var(--background-color-white);
     border-radius: 4px;
     border: none;
@@ -327,14 +331,15 @@ a {
     color:var(--title-color);;
 
     margin-left: 512px;
-        margin-right: 8px;
+    margin-right: 8px;
+    padding: 8px 22px;
+    
         
 }
 
 .filter-button1:hover {
         cursor: pointer;
-        width: 125px;
-        height: 38px;
+        
         background-color:var(--logo-color-1);
         border-radius: 4px;
         border: none;
@@ -347,6 +352,8 @@ a {
         text-align: center;
         letter-spacing: 0.03em;
         color: var(--logo-color-2-footer);
+
+        padding: 8px 22px;
 
 }
 
@@ -369,8 +376,7 @@ a {
 }
 
 .filter-button2 {
-    width: 125px;
-    height: 38px;
+    
     background-color: var(--background-color-white);
     border-radius: 4px;
     border: none;
@@ -385,13 +391,13 @@ a {
     color: var(--title-color);
     
     margin-right: 8px;
+    padding: 8px 22px;
     
 }
 
 .filter-button2:hover {
     cursor: pointer;
-    width: 125px;
-    height: 38px;
+    
     background-color: var(--logo-color-1);
     border-radius: 4px;
     border: none;
@@ -404,6 +410,8 @@ a {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--logo-color-2-footer);
+
+    padding: 8px 22px;
 
 }
 
@@ -426,8 +434,7 @@ a {
 }
 
 .filter-button3 {
-    width: 125px;
-    height: 38px;
+    
     background-color: var(--background-color-white);
     border-radius: 4px;
     border: none;
@@ -442,13 +449,13 @@ a {
     color:var(--title-color);
 
     margin-right: 8px;
+    padding: 8px 22px;
     
 }
 
 .filter-button3:hover {
         cursor: pointer;
-        width: 125px;
-        height: 38px;
+        
         background-color:var(--logo-color-1);
         border-radius: 4px;
         border: none;
@@ -461,6 +468,8 @@ a {
         text-align: center;
         letter-spacing: 0.03em;
         color: var(--logo-color-2-footer);
+
+        padding: 8px 22px;
 
 }
 
@@ -483,8 +492,7 @@ a {
 }
 
 .filter-button4 {
-    width: 125px;
-    height: 38px;
+    
     background-color: var(--background-color-white);
     border-radius: 4px;
     border: none;
@@ -499,12 +507,12 @@ a {
     color:var(--title-color);
 
     margin-right: 8px;
+    padding: 8px 22px;
 }
 
 .filter-button4:hover {
         cursor: pointer;
-        width: 125px;
-        height: 38px;
+        
         background-color:var(--logo-color-1);
         border-radius: 4px;
         border: none;
@@ -517,6 +525,8 @@ a {
         text-align: center;
         letter-spacing: 0.03em;
         color: var(--logo-color-2-footer);
+
+        padding: 8px 22px;
 
 }
 
@@ -539,8 +549,7 @@ a {
 }
 
 .filter-button5 {
-    width: 125px;
-    height: 38px;
+    
     background-color: var(--background-color-white);
     border-radius: 4px;
     border: none;
@@ -553,14 +562,15 @@ a {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-color);
+
+    padding: 8px 22px;
     
-    margin-right: 513px;
+    
 }
 
 .filter-button5:hover {
     cursor: pointer;
-    width: 125px;
-    height: 38px;
+    
     background-color: var(--logo-color-1);
     border-radius: 4px;
     border: none;
@@ -573,6 +583,8 @@ a {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--logo-color-2-footer);
+
+    padding: 8px 22px;
 
 }
 
@@ -641,8 +653,7 @@ a {
  }
 
  .logo-footer {
-    margin-left: 215px;
-    padding-top: 60px;
+    
     margin-bottom: 20px;
  }
 
@@ -670,6 +681,9 @@ a {
 
  .address-list {
      list-style-type: none;
+
+     margin: 0px;
+     padding: 0px;
  }
 
  .address-info {
@@ -682,6 +696,7 @@ a {
      color: var(--logo-color-2-footer);
 
      margin-left: 215px;
+     margin-bottom: 9px;
  }
 
  .address-contact-info {
@@ -694,6 +709,7 @@ a {
      color: rgba(255, 255, 255, 0.6);
 
      margin-left: 215px;
+     margin-bottom: 9px;
  }
 
  .address-info:hover {
