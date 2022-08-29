@@ -12,7 +12,6 @@
     rel="stylesheet">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
-    <link rel="stylesheet" href="portfolio.css/styles.css"/>
     <link rel="stylesheet" href="portfolio.css/styles.css">
     
 </head>
@@ -23,7 +22,7 @@
     
     <header class="top-line">
 
-        <div class="container">
+        <div class="container-header">
     
     
     
@@ -34,9 +33,9 @@
     
             <ul class="nav-menu">
     
-                <li><a href="./index.html" class="studio-link">Студія</a></li>
-                <li><a href="#" class="portfolio-link">Портфоліо</a></li>
-                <li><a href="#" class="contacts-link">Контакти</a></li>
+                <li class="studio-item"><a href="./index.html" class="studio-link">Студія</a></li>
+                <li class="portfolio-item"><a href="#" class="portfolio-link">Портфоліо</a></li>
+                <li class="contacts-item"><a href="#" class="contacts-link">Контакти</a></li>
     
             </ul>
     
@@ -44,8 +43,8 @@
     
         <ul class="contact-info">
     
-            <li><a href="mailto:info@devstudio.com" class="email">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111" class="phone">+38 096 111 11 11</a></li>
+            <li class="email-item"><a href="mailto:info@devstudio.com" class="email">info@devstudio.com</a></li>
+            <li class="phone-item"><a href="tel:+380961111111" class="phone">+38 096 111 11 11</a></li>
     
         </ul>
 
@@ -82,48 +81,48 @@
             <ul class="samples-list">
             
                 <li class="sample"><img src="images/img9.jpg" alt="Вигляд сайту екрані ноутбука" width="370">
-                    <h2 class="sample-title">Технокряк</h2>
-                    <p class="sample-descr">Веб-сайт</p>
+                    <div class="sample-text"><h2 class="sample-title">Технокряк</h2>
+                    <p class="sample-descr">Веб-сайт</p></div>
                 </li>
             
                 <li class="sample"><img src="images/img1.jpg" alt="Постер на тему баскетболу" width="370">
-                    <h2 class="sample-title">Постер New Orlean vs Golden Star</h2>
-                    <p class="sample-descr">Дизайн</p>
+                    <div class="sample-text"><h2 class="sample-title">Постер New Orlean vs Golden Star</h2>
+                    <p class="sample-descr">Дизайн</p></div>
                 </li>
             
                 <li class="sample"><img src="images/img2.jpg" alt="Логотип ресторану" width="370">
-                    <h2 class="sample-title">Ресторан Seafood</h2>
-                    <p class="sample-descr">Додаток</p>
+                    <div class="sample-text"><h2 class="sample-title">Ресторан Seafood</h2>
+                    <p class="sample-descr">Додаток</p></div>
                 </li>
             
                 <li class="sample"><img src="images/img3.jpg" alt="Навушники" width="370">
-                    <h2 class="sample-title">Проєкт Prime</h2>
-                    <p class="sample-descr">Маркетинг</p>
+                    <div class="sample-text"><h2 class="sample-title">Проєкт Prime</h2>
+                    <p class="sample-descr">Маркетинг</p></div>
                 </li>
             
                 <li class="sample"><img src="images/img4.jpg" alt="Коробки" width="370">
-                    <h2 class="sample-title">Проєкт Boxes</h2>
-                    <p class="sample-descr">Додаток</p>
+                    <div class="sample-text"><h2 class="sample-title">Проєкт Boxes</h2>
+                    <p class="sample-descr">Додаток</p></div>
                 </li>
             
                 <li class="sample"><img src="images/img5.jpg" alt="Вигляд сайту на моніторі комп'ютера" width="370">
-                    <h2 class="sample-title">Inspiration has no Borders</h2>
-                    <p class="sample-descr">Веб-сайт</p>
+                    <div class="sample-text"><h2 class="sample-title">Inspiration has no Borders</h2>
+                    <p class="sample-descr">Веб-сайт</p></div>
                 </li>
             
                 <li class="sample"><img src="images/img6.jpg" alt="Журнал" width="370">
-                    <h2 class="sample-title">Видання Limited Edition</h2>
-                    <p class="sample-descr">Дизайн</p>
+                    <div class="sample-text"><h2 class="sample-title">Видання Limited Edition</h2>
+                    <p class="sample-descr">Дизайн</p></div>
                 </li>
             
                 <li class="sample"><img src="images/img7.jpg" alt="Ярлик з написом" width="370">
-                    <h2 class="sample-title">Проєкт LAB</h2>
-                    <p class="sample-descr">Маркетинг</p>
+                    <div class="sample-text"><h2 class="sample-title">Проєкт LAB</h2>
+                    <p class="sample-descr">Маркетинг</p></div>
                 </li>
             
                 <li class="sample"><img src="images/img8.jpg" alt="Робота за ноутбуком" width="370">
-                    <h2 class="sample-title">Growing Business</h2>
-                    <p class="sample-descr">Додаток</p>
+                    <div class="sample-text"><h2 class="sample-title">Growing Business</h2>
+                    <p class="sample-descr">Додаток</p></div>
                 </li>
             
             
@@ -139,27 +138,30 @@
     <!--Підвал-->
     
     <footer class="basement">
-
-        <div class="container">
     
-        <a href="./index.html" class="logo-footer"><span class="logof-el-1">Web</span><span
-                class="logof-el-2">Studio</span></a>
+        <div class="footer-container">
     
-        <address>
+            <a href="./index.html" class="logo-footer"><span class="logof-el-1">Web</span><span
+                    class="logof-el-2">Studio</span></a>
     
-            <ul class="address-list">
+            <address>
     
-                <li>
-                    <a href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank" rel="noopener noreferrer nofollow"><span class="address-info">м.Київ, пр-т Лесі Українки, 26</span></a>
-                </li>
-                <li><a href="mailto:info@devstudio.com"><span class="address-contact-info">info@devstudio.com</span></a>
-                </li>
-                <li><a href="tel:+380961111111"><span class="address-contact-info">+38 096 111 11 11</span></a></li>
+                <ul class="address-list">
     
-            </ul>
+                    <li class="address">
+                        <a href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank"
+                            rel="noopener noreferrer nofollow"><span class="address-info">м.Київ, пр-т Лесі Українки,
+                                26</span></a>
+                    </li>
+                    <li class="email-footer"><a href="mailto:info@devstudio.com"><span
+                                class="address-contact-info">info@devstudio.com</span></a></li>
+                    <li class="tel-footer"><a href="tel:+380961111111"><span class="address-contact-info">+38 096 111 11
+                                11</span></a></li>
     
-        </address>
-
+                </ul>
+    
+            </address>
+    
         </div>
     
     </footer>

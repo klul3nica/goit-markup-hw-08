@@ -14,7 +14,7 @@
 
 
 
-.img {
+img {
     display: block;
         max-width: 100%;
         height: auto;
@@ -24,7 +24,7 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: var(--main-color);
     letter-spacing: 0.03em;
-    width: 1600px;
+    
 
     
 }
@@ -32,14 +32,15 @@ body {
 
 /*Стилі верхня лінія*/
 
-.top-line{
-    width: 1600px;
-    border-bottom:var(--border) ;
-    
+ul {padding: 0px;
+    margin: 0px;}
 
+.container-header {
     display: flex;
-    
-    
+    padding-left: 215px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -51,7 +52,7 @@ a {
 }
 
 .logo-top-line {
-    margin-left: 215px;
+    
     margin-right: 95px;
     padding-top: 24px;
     padding-bottom: 25px;
@@ -89,6 +90,10 @@ a {
     
 }
 
+.studio-item{margin-right: 50px;
+             display: inline-block;} 
+
+
 .studio-link {
     
     font-weight: 500;
@@ -98,7 +103,8 @@ a {
 
     color: var(--title-color);
 
-    margin-right: 50px;
+    padding-top: 32px;
+    padding-bottom:32px ;
 }
 
 .studio-link:focus {
@@ -120,6 +126,9 @@ a {
     color: var(--logo-color-1);
 }
 
+.portfolio-item{margin-right: 50px;
+                display: inline-block;}
+
 .portfolio-link {
     
     font-weight: 500;
@@ -129,7 +138,8 @@ a {
 
     color: var(--title-color);
 
-    margin-right: 50px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .portfolio-link:focus {
@@ -152,6 +162,8 @@ a {
  
 }
 
+.contacts-item{display: inline-block;}
+
 .contacts-link {
     
     font-weight: 500;
@@ -159,6 +171,8 @@ a {
     line-height: 1.7;
     letter-spacing: 0.02em;
     color: var(--title-color);
+    padding-top: 32px;
+    padding-bottom: 32px;
 
 }
 
@@ -210,9 +224,12 @@ a {
     list-style: none;
     display: flex;
     margin-left: auto;
+    gap: 50px;
     
   
 }
+
+.email-item{margin-top: 24px;}
 
 .email {
     
@@ -221,6 +238,8 @@ a {
     line-height: 1.7;
     letter-spacing: 0.02em;
     color: var(--text-color);
+    padding-top: 32px;
+    padding-bottom: 32px;
     
 }
 
@@ -243,6 +262,8 @@ a {
     color:var(--logo-color-1);
 }
 
+.phone-item{margin-top:24px;}
+
 .phone {
     
     font-weight: 500;
@@ -251,7 +272,7 @@ a {
     letter-spacing: 0.02em;
     color: var(--text-color);
 
-    margin-right: 50px;
+    margin-right: 215px;
 }
 
 .phone:focus{
@@ -302,7 +323,9 @@ a {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--main-color);
+    text-align: center;
 
+    margin-top: 0px;
     margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
@@ -319,7 +342,7 @@ a {
 
     margin-left: auto;
     margin-right:auto ;
-    display: inline-block;
+    display: block;
     
    
 
@@ -389,9 +412,12 @@ a {
    
 }
 
+.features-container{
+                    padding-left: 215px;
+                    padding-right: 215px;}
+
 .feature1 {
     width: 270px;
-    height: 98px;
 
     
     
@@ -401,7 +427,6 @@ a {
 
 .feature2 {
     width: 270px;
-    height: 98px;
 
     margin-left: 30px;
     
@@ -409,7 +434,6 @@ a {
 
 .feature3 {
     width: 270px;
-    height: 98px;
 
     margin-left: 30px;
     
@@ -417,10 +441,9 @@ a {
 
 .feature4 {
     width: 270px;
-    height: 98px;
 
     padding-bottom: 118px;
-    padding-top: 94px;
+    
     margin-left: 30px;
    
 }
@@ -435,7 +458,7 @@ a {
     text-transform: uppercase;
     color: var(--title-color);
 
-    margin-right: 10px;
+    margin-top: 0px;
 }
 
 .f-descr {
@@ -445,22 +468,24 @@ a {
     font-size: 14px;
     line-height: 1.7;
     color: var(--text-color);
+
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 /*Стилі Чим им займаємося*/
 
+.occupation-container{padding-left: 215px;
+                      padding-right: 215px;}
+
 .occupation {
     padding-bottom: 94px;
-    
-    
-
-    
     
 
 }
 
 .occup-title {
-    width: 366px;
+    
     
     font-weight: 700;
     font-size: 36px;
@@ -468,31 +493,21 @@ a {
     text-align: center;
     color: var(--title-color);
 
+    margin-top: 0px;
     margin-bottom: 50px;
 
 }
 
 .occupation-list {
     list-style-type: none;
-
+    gap: 30px;
     display: flex;
     align-items: center;
 }
 
-.occup1 {
-    margin-right: 30px;
-}
 
-.occup2 {
-    margin-right: 30px;
 
-}
 
-.occup3 {
-    
-    padding-right: 215px;
-    padding-bottom: 94px;
-}
 
 /*Стилі Наша команда*/
 
@@ -506,6 +521,9 @@ a {
     padding-bottom: 94px;
 }
 
+.team-container {padding-left: 215px;
+                padding-right: 215px;}
+
 .our-team-title {
 
     font-weight: 700;
@@ -515,6 +533,7 @@ a {
     color: var(--title-color);
 
     margin-bottom: 50px;
+    margin-top: 0px;
 
 
 }
@@ -582,7 +601,8 @@ a {
     text-align: center;
     color: var(--title-color);
 
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-top: 0px;
 
  }
 
@@ -615,8 +635,14 @@ a {
     
  }
 
+ .footer-container{
+    padding-left: 215px;
+ }
+
  .logo-footer {
     
+    
+    display: inline-block;
     margin-bottom: 20px;
     
  }
@@ -648,11 +674,10 @@ a {
  .address-list {
     list-style-type: none;
 
-    
-    
-
-    
  }
+
+ .address {margin-bottom: 9px;}
+ .email-footer{margin-bottom: 9px;}
 
  .address-info {
     font-family: 'Roboto';
@@ -674,6 +699,7 @@ a {
     line-height: 1.7;
     
     color: rgba(255, 255, 255, 0.6);
+    
 
     
  }
