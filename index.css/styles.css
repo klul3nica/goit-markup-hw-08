@@ -29,6 +29,15 @@ body {
     
 }
 
+.container {
+    padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1200px;
+
+}
+
 
 /*Стилі верхня лінія*/
 
@@ -37,10 +46,11 @@ ul {padding: 0px;
 
 .container-header {
     display: flex;
-    padding-left: 215px;
+    padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+    width:1200px;
 }
 
 
@@ -105,6 +115,7 @@ a {
 
     padding-top: 32px;
     padding-bottom:32px ;
+    display: inline-block;
 }
 
 .studio-link:focus {
@@ -140,6 +151,7 @@ a {
 
     padding-top: 32px;
     padding-bottom: 32px;
+    display: inline-block;
 }
 
 .portfolio-link:focus {
@@ -173,6 +185,7 @@ a {
     color: var(--title-color);
     padding-top: 32px;
     padding-bottom: 32px;
+    display: inline-block;
 
 }
 
@@ -229,7 +242,7 @@ a {
   
 }
 
-.email-item{margin-top: 24px;}
+
 
 .email {
     
@@ -240,6 +253,7 @@ a {
     color: var(--text-color);
     padding-top: 32px;
     padding-bottom: 32px;
+    display: inline-block;
     
 }
 
@@ -262,7 +276,7 @@ a {
     color:var(--logo-color-1);
 }
 
-.phone-item{margin-top:24px;}
+
 
 .phone {
     
@@ -273,6 +287,9 @@ a {
     color: var(--text-color);
 
     margin-right: 215px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: inline-block;
 }
 
 .phone:focus{
@@ -413,8 +430,9 @@ a {
 }
 
 .features-container{
+                    
                     padding-left: 215px;
-                    padding-right: 215px;}
+                    padding-right:215px ;}
 
 .feature1 {
     width: 270px;
@@ -442,7 +460,7 @@ a {
 .feature4 {
     width: 270px;
 
-    padding-bottom: 118px;
+    
     
     margin-left: 30px;
    
@@ -476,7 +494,8 @@ a {
 /*Стилі Чим им займаємося*/
 
 .occupation-container{padding-left: 215px;
-                      padding-right: 215px;}
+                      padding-right: 215px;
+                      }
 
 .occupation {
     padding-bottom: 94px;
@@ -512,8 +531,7 @@ a {
 /*Стилі Наша команда*/
 
 .team {
-    width: 1600px;
-    height: 648;
+    
     
     background: var(--background-color-white);
 
@@ -522,7 +540,8 @@ a {
 }
 
 .team-container {padding-left: 215px;
-                padding-right: 215px;}
+                padding-right: 215px;
+                }
 
 .our-team-title {
 
@@ -622,8 +641,7 @@ a {
  /*Стилі Підвал*/
 
  .basement {
-    width: 1600px;
-    height: 252px;
+    
     background-color: var(--secondary-main-color);
 
     display: flex;
@@ -637,6 +655,7 @@ a {
 
  .footer-container{
     padding-left: 215px;
+    
  }
 
  .logo-footer {
