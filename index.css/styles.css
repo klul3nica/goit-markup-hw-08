@@ -24,17 +24,15 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: var(--main-color);
     letter-spacing: 0.03em;
-    
-
-    
+     
 }
 
 .container {
     padding-left: 15px;
-        padding-right: 15px;
-        margin-left: auto;
-        margin-right: auto;
-        width: 1200px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
 
 }
 
@@ -213,7 +211,7 @@ a {
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.02em;
-    background-color: var(--logo-color-1);
+    color: var(--logo-color-1);
 
 }
 
@@ -222,7 +220,7 @@ a {
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.02em;
-    background-color: var(--logo-color-1);
+    color: var(--logo-color-1);
 }
 
 .contacts-link:current {
@@ -230,7 +228,7 @@ a {
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.02em;
-    background-color: var(--logo-color-1);
+    color: var(--logo-color-1);
 }
 
 .contact-info {
