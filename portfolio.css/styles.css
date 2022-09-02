@@ -21,7 +21,13 @@ body {
 }
 
 
+
+
 /*Стилі верхня лінія*/
+
+.top-line {
+    border-bottom: 1px solid var(--border-header);
+}
 
 
 ul {
@@ -35,8 +41,9 @@ ul {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+    width: 1200px;
     
-    border-bottom: 1px solid var(--border-header);
+    
 }
 
 .container {
@@ -55,7 +62,7 @@ a {
 }
 
 .logo-top-line {
-    margin-left: 215px;
+    
     margin-right: 95px;
     padding-top: 24px;
     padding-bottom: 25px;
@@ -207,30 +214,17 @@ a {
 
 }
 
-.studio-link:current {
+
+
+.portfolio-link,current {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.02em;
-    background-color: var(--logo-color-1);
-
+    color: var(--logo-color-1);
 }
 
-.portfolio-link:current {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.02em;
-    background-color: var(--logo-color-1);
-}
 
-.contacts-link:current {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.02em;
-    background-color: var(--logo-color-1);
-}
 
 .contact-info {
     list-style: none;
@@ -285,7 +279,7 @@ a {
     letter-spacing: 0.02em;
     color: var(--text-color);
 
-    margin-right: 215px;
+    
     padding-top: 32px;
     padding-bottom: 32px;
     display: inline-block;
@@ -341,7 +335,7 @@ a {
 
     display: flex;
 
-    padding-top: 94px;
+    
     margin-top: 0px;
     margin-bottom: 50px;
     justify-content: center;
@@ -654,7 +648,7 @@ a {
     padding-top: 0px;
     padding-left: 0px;
     padding-right: 0px;
-    padding-bottom: 94px;
+    
 }
 
 .sample {
