@@ -301,6 +301,7 @@ a {
 
 .quote-section {
     background-color: var(--secondary-main-color);
+    background-image: url(../images/bg.jpg);
     
 
     display: flex;
