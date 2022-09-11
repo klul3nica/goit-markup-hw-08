@@ -520,6 +520,8 @@ a {
 .social-list{
     list-style-type: none;
     display: flex;
+    justify-content: center;
+    column-gap: 10px;
 }
 
 .social-list-icon{
