@@ -243,6 +243,14 @@ a {
     
 }
 
+.email:hover>.icon-envelope{
+    fill: var(--button-color-2);
+}
+
+.email:focus>.icon-envelope {
+    fill: var(--button-color-2);
+}
+
 .email:focus {
     
         font-weight: 500;
@@ -262,6 +270,13 @@ a {
     color:var(--logo-color-1);
 }
 
+.phone:hover>.icon-phone{
+    fill: var(--logo-color-1);
+}
+
+.phone:focus>.icon-phone {
+    fill: var(--logo-color-1);
+}
 
 
 .phone {
@@ -391,6 +406,11 @@ a {
 }
 
 /*Особливості*/
+
+.f-icon{
+    width: 70px;
+    height: 70px;
+}
 
 .work-features {
     padding-top: 94px;
@@ -529,6 +549,7 @@ a {
     height: 44px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .social-list-link:hover{
@@ -538,13 +559,25 @@ a {
     background-color: var(--button-color-2);
 }
 
-.social-list:hover>.social-list-icon{
+.social-list-link:focus {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: var(--button-color-2);
+}
+
+.social-list-icon:hover{
+    fill: #FFFFFF;
+}
+
+.social-list-icon:focus {
     fill: #FFFFFF;
 }
 
 .social-list-icon{
     width: 20px;
     height: 20px;
+    justify-content: center;
 }
 
 .team {
@@ -653,6 +686,19 @@ a {
 
     margin: 0px;
 
+ }
+
+ /*Стилі постійні клієнти*/
+
+ .clients-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color:var(--title-color);    
  }
 
  /*Стилі Підвал*/
