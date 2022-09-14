@@ -243,13 +243,29 @@ a {
     
 }
 
-.email:hover>.icon-envelope{
-    fill: var(--button-color-2);
+.icon-envelope{
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    fill: var(--text-color);
 }
 
-.email:focus>.icon-envelope {
-    fill: var(--button-color-2);
+.icon-phone{
+    width: 16px;
+height: 12px;
+margin-right: 10px;
+fill: var(--text-color)}
+
+.email:hover,.email:focus .icon-envelope{
+    fill: var(--logo-color-1);
 }
+
+.phone:hover,.phone:focus .icon-phone{
+    fill: var(--logo-color-1);
+}
+
+
+
 
 .email:focus {
     
@@ -270,13 +286,7 @@ a {
     color:var(--logo-color-1);
 }
 
-.phone:hover>.icon-phone{
-    fill: var(--logo-color-1);
-}
 
-.phone:focus>.icon-phone {
-    fill: var(--logo-color-1);
-}
 
 
 .phone {
@@ -407,9 +417,19 @@ a {
 
 /*Особливості*/
 
+.f-container{
+    display: flex;
+    
+    width: 270;
+    height: 120px;
+    background-color: #F5F4FA;
+}
+
 .f-icon{
     width: 70px;
     height: 70px;
+    
+    
 }
 
 .work-features {
@@ -484,6 +504,7 @@ a {
     color: var(--title-color);
 
     margin-top: 0px;
+    margin-top: 30px;
 }
 
 .f-descr {
@@ -566,15 +587,12 @@ a {
     background-color: var(--button-color-2);
 }
 
-.social-list-icon:hover{
-    fill: #FFFFFF;
-}
-
-.social-list-icon:focus {
+.social-list-link:hover,.social-list-link:focus .social-list-icon{
     fill: #FFFFFF;
 }
 
 .social-list-icon{
+    fill: #AFB1B8;
     width: 20px;
     height: 20px;
     justify-content: center;
@@ -685,6 +703,7 @@ a {
     color: var(--text-color);
 
     margin: 0px;
+    margin-bottom: 16px;
 
  }
 
@@ -821,6 +840,51 @@ a {
      line-height: 1.7;
      color: var(--logo-color-1)
  }
+
+ .footer-social-links{
+    width: 206px;
+    height: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    
+ }
+
+ .fsl-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+ }
+
+ .social-list-footer {
+     list-style-type: none;
+     display: flex;
+     justify-content: center;
+     column-gap: 10px;
+ }
+
+ .social-list-icon-footer {
+     fill: #FFFFFF;
+     width: 20px;
+     height: 20px;
+     justify-content: center;
+ }
+
+ .social-list-link-footer {
+     width: 44px;
+     height: 44px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+ }
+
+.social-list-link-footer:hover,.social-list-link-footer:focus{
+    background-color: var(--logo-color-1);
+}
 
 
 
