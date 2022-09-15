@@ -244,14 +244,14 @@ a {
     width: 16px;
     height: 12px;
     margin-right: 10px;
-    fill: var(--text-color);
+    
 }
 
 .icon-phone {
     width: 16px;
     height: 12px;
     margin-right: 10px;
-    fill: var(--text-color)
+    
 }
 
 .email:hover,
@@ -276,6 +276,7 @@ a {
     padding-top: 32px;
     padding-bottom: 32px;
     display: inline-block;
+    fill: var(--text-color);
 
 }
 
@@ -286,7 +287,7 @@ a {
     line-height: 1.7;
     letter-spacing: 0.02em;
     color: var(--logo-color-1);
-
+    fill: var(--logo-color-1);
 }
 
 .email:hover {
@@ -296,6 +297,7 @@ a {
     line-height: 1.7;
     letter-spacing: 0.02em;
     color: var(--logo-color-1);
+    fill: var(--logo-color-1);
 }
 
 
@@ -312,6 +314,7 @@ a {
     padding-top: 32px;
     padding-bottom: 32px;
     display: inline-block;
+    fill: var(--text-color);
 }
 
 .phone:focus {
@@ -904,4 +907,11 @@ a {
      display: flex;
      justify-content: center;
      column-gap: 10px;
+ }
+
+ .footer-box{
+    display: flex;
+    align-items: baseline;
+    margin-right: 0px;
+    margin-left: 70px;
  }
