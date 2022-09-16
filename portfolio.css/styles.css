@@ -739,7 +739,7 @@ a {
  /*Стилі Підвал*/
 
  .basement {
-     width: 1600px;
+     
      height: 252px;
      background-color: var(--secondary-main-color);
 
@@ -858,9 +858,9 @@ a {
 
  .footer-social-links {
      width: 206px;
-     height: 80px;
-     margin-right: auto;
-     margin-left: auto;
+    
+
+     margin-left: 70px;
 
  }
 
@@ -871,6 +871,8 @@ a {
      letter-spacing: 0.03em;
      text-transform: uppercase;
      color: #FFFFFF;
+     margin-top: 0px;
+     margin-bottom: 20px;
  }
 
  .social-list-footer {
@@ -902,16 +904,9 @@ a {
      background-color: var(--logo-color-1);
  }
 
- .social-list {
-     list-style-type: none;
+ .footer-box {
      display: flex;
-     justify-content: center;
-     column-gap: 10px;
- }
+     align-items: baseline;
 
- .footer-box{
-    display: flex;
-    align-items: baseline;
-    margin-right: 0px;
-    margin-left: 70px;
+
  }
