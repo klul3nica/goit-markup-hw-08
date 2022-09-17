@@ -739,8 +739,7 @@ a {
  /*Стилі Підвал*/
 
  .basement {
-     
-     height: 252px;
+
      background-color: var(--secondary-main-color);
 
      display: flex;
@@ -754,9 +753,8 @@ a {
 
  .footer-container {
      padding-left: 215px;
- }
 
- 
+ }
 
  .logo-footer {
 
@@ -860,7 +858,7 @@ a {
 
  .footer-social-links {
      width: 206px;
-    
+
 
      margin-left: 70px;
 
