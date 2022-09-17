@@ -9,6 +9,7 @@
     --background-color-white: #F5F4FA;
     --border: #ECECEC;
     --border-header:#EEEEEE;
+    --timing: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 body {
@@ -30,6 +31,12 @@ img {
 
 
 /*Стилі верхня лінія*/
+
+
+
+
+
+
 
 .top-line {
     border-bottom: 1px solid var(--border-header);
@@ -132,6 +139,7 @@ a {
     line-height: 1.7;
     letter-spacing: 0.02em;
     color: var(--logo-color-1);
+    transition: var(--timing);
 
 }
 
@@ -143,6 +151,7 @@ a {
     line-height: 1.7;
     letter-spacing: 0.02em;
     color: var(--logo-color-1);
+    transition: var(--timing);
 }
 
 .portfolio-item {
@@ -170,6 +179,7 @@ a {
     line-height: 1.7;
     letter-spacing: 0.02em;
     color: var(--logo-color-1);
+    transition: var(--timing);
 }
 
 .portfolio-link:hover {
@@ -180,6 +190,7 @@ a {
     line-height: 1.7;
     letter-spacing: 0.02em;
     color: var(--logo-color-1);
+    transition: var(--timing);
 
 
 }
@@ -207,6 +218,7 @@ a {
     line-height: 1.7;
     letter-spacing: 0.02em;
     color: var(--logo-color-1);
+    transition: var(--timing);
 }
 
 .contacts-link:hover {
@@ -217,17 +229,33 @@ a {
     line-height: 1.7;
     letter-spacing: 0.02em;
     color: var(--logo-color-1);
+    transition: var(--timing);
 
 }
 
 
 
-.portfolio-link,current {
+.portfolio-link,.current {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.02em;
     color: var(--logo-color-1);
+}
+
+.current::after {
+    content: '';
+    display: block;
+    width: 78px;
+    height: 4px;
+    background-color: var(--logo-color-1);
+    position: absolute;
+    opacity: 1;
+    border-radius: 2px;
+    margin-top: 28px;
+    top: 76;
+    left: 451;
+
 }
 
 
@@ -257,11 +285,13 @@ a {
 .email:hover,
 .email:focus .icon-envelope {
     fill: var(--logo-color-1);
+    transition: var(--timing);
 }
 
 .phone:hover,
 .phone:focus .icon-phone {
     fill: var(--logo-color-1);
+    transition: var(--timing);
 }
 
 
@@ -288,6 +318,7 @@ a {
     letter-spacing: 0.02em;
     color: var(--logo-color-1);
     fill: var(--logo-color-1);
+    transition: var(--timing);
 }
 
 .email:hover {
@@ -298,6 +329,7 @@ a {
     letter-spacing: 0.02em;
     color: var(--logo-color-1);
     fill: var(--logo-color-1);
+    transition: var(--timing);
 }
 
 
@@ -324,6 +356,7 @@ a {
     line-height: 1.7;
     letter-spacing: 0.02em;
     color: var(--logo-color-1);
+    transition: var(--timing);
 }
 
 .phone:hover {
@@ -333,6 +366,7 @@ a {
     line-height: 1.7;
     letter-spacing: 0.02em;
     color: var(--logo-color-1);
+    transition: var(--timing);
 
 }
 
@@ -418,6 +452,7 @@ a {
 
         padding: 8px 22px;
         box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+        transition: var(--timing);
 
 }
 
@@ -435,6 +470,7 @@ a {
         letter-spacing: 0.03em;
         color: var(--logo-color-2-footer);
         box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+        transition: var(--timing);
 
 }
 
@@ -476,6 +512,7 @@ a {
 
     padding: 8px 22px;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    transition: var(--timing);
 
 }
 
@@ -494,6 +531,7 @@ a {
     letter-spacing: 0.03em;
     color: var(--logo-color-2-footer);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    transition: var(--timing);
 
 }
 
@@ -514,6 +552,7 @@ a {
 
     margin-right: 8px;
     padding: 8px 22px;
+
     
 }
 
@@ -535,6 +574,7 @@ a {
 
         padding: 8px 22px;
         box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+        transition: var(--timing);
 
 }
 
@@ -553,6 +593,7 @@ a {
         letter-spacing: 0.03em;
         color: var(--logo-color-2-footer);
         box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+        transition: var(--timing);
 
 }
 
@@ -593,6 +634,7 @@ a {
 
         padding: 8px 22px;
         box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+        transition: var(--timing);
 
 }
 
@@ -611,6 +653,7 @@ a {
         letter-spacing: 0.03em;
         color: var(--logo-color-2-footer);
         box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+        transition: var(--timing);
 
 }
 
@@ -652,6 +695,7 @@ a {
 
     padding: 8px 22px;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    transition: var(--timing);
 
 }
 
@@ -670,6 +714,7 @@ a {
     letter-spacing: 0.03em;
     color: var(--logo-color-2-footer);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    transition: var(--timing);
 
 }
 
@@ -695,6 +740,7 @@ a {
 
 .sample-link:hover .overlay,.sample-link:focus .overlay{
     transform: translateY(0%);
+    
 }
 
 .sample-list-img-wrapper{
@@ -704,10 +750,12 @@ a {
 
 .sample-link:hover {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    transition: var(--timing);
 }
 
 .sample-link:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    transition: var(--timing);
 }
 
 
