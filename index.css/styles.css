@@ -156,6 +156,7 @@ a {
     padding-top: 32px;
     padding-bottom: 32px;
     display: inline-block;
+    transition: color var(--timing);
 }
 
 .portfolio-link:focus {
@@ -164,7 +165,7 @@ a {
         line-height: 1.7;
         letter-spacing: 0.02em;
         color: var(--logo-color-1);
-        transition: var(--timing);
+    
 }
 
 .portfolio-link:hover {
@@ -175,7 +176,7 @@ a {
     line-height: 1.7;
     letter-spacing: 0.02em;
     color: var(--logo-color-1);
-    transition: var(--timing);
+    
 
  
 }
@@ -192,6 +193,7 @@ a {
     padding-top: 32px;
     padding-bottom: 32px;
     display: inline-block;
+    transition: color var(--timing);
 
 }
 
@@ -205,7 +207,7 @@ a {
         line-height: 1.7;
         letter-spacing: 0.02em;
         color: var(--logo-color-1);
-        transition: var(--timing);
+        
 }
 
 .contacts-link:hover {
@@ -216,7 +218,7 @@ a {
     line-height: 1.7;
     letter-spacing: 0.02em;
     color: var(--logo-color-1);
-    transition: var(--timing);
+  
 
 }
 
@@ -269,7 +271,8 @@ a {
     padding-top: 32px;
     padding-bottom: 32px;
     display: inline-block;
-    fill: var(--text-color)
+    fill: var(--text-color);
+    transition: color var(--timing),fill var(--timing);
 
     
 }
@@ -278,18 +281,18 @@ a {
     width: 16px;
     height: 12px;
     margin-right: 10px;
-    ;
+    
 }
 
 .icon-phone{
     width: 10px;
     height: 16px;
-margin-right: 10px;
+    margin-right: 10px;
 }
 
 .email:hover,.email:focus .icon-envelope{
     fill: var(--logo-color-1);
-    transition: var(--timing);
+    
 }
 
 .phone:hover,.phone:focus .icon-phone{
@@ -308,7 +311,7 @@ margin-right: 10px;
         letter-spacing: 0.02em;
         color: var(--logo-color-1);
         fill: var(--logo-color-1);
-        transition: var(--timing);
+        
 
 }
 
@@ -320,7 +323,7 @@ margin-right: 10px;
     letter-spacing: 0.02em;
     color:var(--logo-color-1);
     fill: var(--logo-color-1);
-    transition: var(--timing);
+    
 
 }
 
@@ -334,12 +337,14 @@ margin-right: 10px;
     line-height: 1.7;
     letter-spacing: 0.02em;
     color: var(--text-color);
-
+    display: flex;
+    align-items: center;
     
     padding-top: 32px;
     padding-bottom: 32px;
     display: inline-block;
-    fill: var(--text-color)
+    fill: var(--text-color);
+    transition: color var(--timing), fill var(--timing);
 }
 
 .phone:focus{
@@ -350,7 +355,7 @@ margin-right: 10px;
         letter-spacing: 0.02em;
         color: var(--logo-color-1);
         fill: var(--logo-color-1);
-        transition: var(--timing);
+        
 }
 
 .phone:hover {
@@ -361,7 +366,7 @@ margin-right: 10px;
     letter-spacing: 0.02em;
     color: var(--logo-color-1);
     fill: var(--logo-color-1);
-    transition: var(--timing);
+    
 
 }
 
@@ -417,6 +422,7 @@ margin-right: 10px;
     margin-left: auto;
     margin-right:auto ;
     display: block;
+    transition: background-color var(--timing);
     
    
 
@@ -432,7 +438,7 @@ margin-right: 10px;
     border-radius: 4px;
     border: none;
     text-align: center;
-    transition: var(--timing);
+   
 
     
 
@@ -446,7 +452,7 @@ margin-right: 10px;
         border-radius: 4px;
         border: none;
         text-align: center;
-        transition: var(--timing);
+        
 
 }
 
@@ -552,7 +558,7 @@ margin-right: 10px;
     color: var(--title-color);
 
     margin-top: 0px;
-    margin-top: 30px;
+   
 }
 
 .f-descr {
@@ -647,6 +653,8 @@ margin-right: 10px;
     justify-content: center;
     fill: var(--social);
     border-radius: 50%;
+    background-color: transparent;
+    transition: background-color var(--timing),fill var(--timing);
 }
 
 .social-list-link:hover{
@@ -655,7 +663,7 @@ margin-right: 10px;
     border-radius: 50%;
     background-color: var(--button-color-2);
     fill: var(--main-color);
-    transition: var(--timing);
+    
 }
 
 .social-list-link:focus {
@@ -664,12 +672,12 @@ margin-right: 10px;
     border-radius: 50%;
     background-color: var(--button-color-2);
     fill: var(--main-color);
-    transition: var(--timing);
+    
 }
 
 .social-list-link:hover,.social-list-link:focus .social-list-icon{
     fill: #FFFFFF;
-    transition: var(--timing);
+    
 }
 
 .social-list-icon{
@@ -677,6 +685,7 @@ margin-right: 10px;
     width: 20px;
     height: 20px;
     justify-content: center;
+    transition: fill var(--timing);
     
 }
 
@@ -829,12 +838,13 @@ margin-right: 10px;
     align-items: center;
     justify-content: center;
     fill: #AFB1B8;
+    transition: fill var(--timing),border-color var(--timing);
  }
 
  .clients-link:hover,.clients-link:focus{
     fill: var(--logo-color-1);
     border-color: var(--logo-color-1);
-    transition: var(--timing);
+    
  }
 
  .clients-icon{
@@ -914,6 +924,7 @@ margin-right: 10px;
     color: var(--logo-color-2-footer);
 
     margin-bottom: 9px;
+    transition: color var(--timing);
  }
 
  .address-contact-info {
@@ -924,6 +935,7 @@ margin-right: 10px;
     line-height: 1.7;
     
     color: rgba(255, 255, 255, 0.6);
+    transition: color var(--timing);
     
 
     
@@ -937,7 +949,7 @@ margin-right: 10px;
         font-size: 14px;
         line-height: 1.7;
         color:var(--logo-color-1) ;
-        transition: var(--timing);
+        
 
  }
 
@@ -948,7 +960,7 @@ margin-right: 10px;
         font-size: 14px;
         line-height: 1.7;
         color: var(--logo-color-1);
-        transition: var(--timing);
+        
 
  }
 
@@ -959,7 +971,7 @@ margin-right: 10px;
      font-size: 14px;
      line-height: 1.7;
      color: var(--logo-color-1);
-    transition: var(--timing);
+   
  }
 
  .footer-social-links{
@@ -1003,11 +1015,12 @@ margin-right: 10px;
      justify-content: center;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);
+    transition: background-color var(--timing);
  }
 
 .social-list-link-footer:hover,.social-list-link-footer:focus{
     background-color: var(--logo-color-1);
-    transition: var(--timing);
+    
 }
 
 .footer-box{
@@ -1041,7 +1054,7 @@ margin-right: 10px;
 
 .modal{
     width: 528px;
-    height: 521px;
+    
     background-color: var(--main-color);
     position: absolute;
     top: 50%;
@@ -1053,6 +1066,7 @@ margin-right: 10px;
 .close-button-icon{
     width: 18px;
     height: 18px;
+        transition: fill var(--timing);
 }
 
 .close-button{
@@ -1068,6 +1082,10 @@ margin-right: 10px;
     position: absolute;
     top: 8px;
     right: 8px;
+}
+
+.close-button:hover .close-button-icon{
+    fill:var(--logo-color-1);
 }
 
 /* Стилі Форми */
@@ -1100,6 +1118,18 @@ margin-right: 10px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     padding-left: 42px;
+    transition: border-color var(--timing),fill var(--timing);
+}
+
+.modal-form-input:focus{
+    outline: none;
+    border-color: var(--logo-color-1);
+    
+}
+
+.modal-form-input:focus + .form-icon{
+    fill: var(--logo-color-1);
+
 }
 
 .label-title{
@@ -1114,7 +1144,28 @@ margin-right: 10px;
 
 .modal-form-message{
     width: 100%;
+    height: 120px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    padding: 12px 16px;
+    resize: none;
+    transition: border-color var(--timing);
 }
+
+.modal-form-message::placeholder{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    color: rgba(117, 117, 117, 0.5);
+}
+
+.modal-form-message:focus{
+    outline: none;
+    border-color: var(--logo-color-1);
+}
+
+
 
 .form-icon{
     width: 18px;
@@ -1123,11 +1174,152 @@ margin-right: 10px;
     top: 50%;
     left: 12px;
     transform: translateY(-50%);
+    transition: fill var(--timing);
 }
 
 .modal-form-input-wrapper{
     position: relative;
 }
+
+.checkfield-text{
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+    
+        letter-spacing: 0.03em;
+    
+        color: #757575;
+        
+}
+
+.checkfield-policy{
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+    
+        letter-spacing: 0.03em;
+        text-decoration-line: underline;
+    
+        color: #2196F3;
+}
+
+.modal-form-submit{
+    width: 200px;
+    height: 50px;
+    font-weight: 700;
+        font-size: 16px;
+        line-height: 30px;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+    
+        color: #FFFFFF;
+        background-color: var(--logo-color-1);
+        border: none;
+        border-radius: 4px;
+        transition: background-color var(--timing),box-shadow var(--timing);
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.modal-form-submit:hover,
+.modal-form-submit:focus{
+    background-color: var(--button-color-2);
+    box-shadow:  0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.sub-form{
+    margin-left: 93px;
+}
+
+.input-button{
+    display: flex;
+   
+}
+
+
+
+.sub-quote{
+    font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    
+        color: var(--main-color);
+        margin-bottom: 20px;
+        
+}
+
+.modal-form-sub-input{
+    width: 100%;
+    height: 50px;
+    padding-top: 15px ;
+    padding-bottom: 15px;
+    padding-left: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+        border-radius: 4px;
+        background-color: transparent;
+        outline: none;
+        margin-right: 12px;
+}
+
+.modal-form-sub-submit{
+    width: 200px;
+    height: 50px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    font-weight: 700;
+        font-size: 16px;
+        line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+    
+        color: var(--main-color);
+        transition: background-color var(--timing);
+        
+}
+
+.sub-icon{
+    
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+    
+}
+
+.modal-form-sub-submit:hover,
+.modal-form-sub-submit:focus{
+    background-color: var(--button-color-2);
+}
+
+.modal-form-check{
+    appearance: none;
+    position: absolute;
+}
+
+.checkbox{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    
+}
+
+
+
+
+
+
+
 
 
 

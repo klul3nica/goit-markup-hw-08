@@ -436,6 +436,20 @@
         
         </div>
 
+        <div class="sub-form">
+            <p class="sub-quote">Підпишіться на розсилку</p>
+            <div class="input-button">
+            <input type="text" class="modal-form-sub-input" required pattern="[^ @]*@[^ @]*\.[a-zA-Z]{2,}" title="example@mail.com"
+                name="user_email" placeholder="Email"/>
+            <button type="submit" class="modal-form-sub-submit">Підписатися
+                <svg class="sub-icon">
+                <use href="./images/sprite.svg#icon-send"></use>
+            </svg></button>
+            </div>
+
+
+        </div>
+
         </div>
 
         
@@ -444,7 +458,7 @@
 
     </footer>
 
-   <div class="backdrop is-hidden" data-modal >
+   <div class="backdrop .is-hidden" data-modal >
     <div class="modal">
         <button type="button" class="close-button" data-modal-close><svg class="close-button-icon">
             <use href="./images/sprite.svg#close-button-icon" ></use>
@@ -453,30 +467,30 @@
      <form class="modal-form">
         <label class="modal-form-field">
             <span class="label-title">Ім'я</span>
-            <div class="modal-form-input-wrapper">
+            <span class="modal-form-input-wrapper">
             <input type="text" class="modal-form-input" required pattern="[a-zA-Zа-яА-ЯІіЇї]+" name="user_name" />
             <svg class="form-icon">
                 <use href="./images/sprite.svg#icon-person-form"></use>
             </svg>
-            </div>
+        </span>
         </label>
         <label class="modal-form-field">
             <span class="label-title">Телефон</span>
-            <div class="modal-form-input-wrapper">
+            <span class="modal-form-input-wrapper">
             <input type="tel" class="modal-form-input" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" title="xxx-xxx-xx-xx" name="user_phone" />
             <svg class="form-icon">
                 <use href="./images/sprite.svg#icon-phone-form"></use>
             </svg>
-            </div>
+        </span>
         </label>
         <label class="modal-form-field">
             <span class="label-title">Пошта</span>
-            <div class="modal-form-input-wrapper">
+            <span class="modal-form-input-wrapper">
             <input type="text" class="modal-form-input" required pattern="[^ @]*@[^ @]*\.[a-zA-Z]{2,}" title="example@mail.com" name="user_email" />
             <svg class="form-icon">
-                <use href="./images/sprite.svg#icon-envelope-form"></use>
+                <use href="./images/sprite.svg#icon-email-form"></use>
             </svg>
-            </div>
+        </span>
         </label>
         <label class="modal-form-field">
             <span class="label-title">Коментар</span>
@@ -484,7 +498,11 @@
         </label>
         <label for="" class="modal-form-checkfield">
             <input type="checkbox" class="modal-form-check" name="user_policy">
-            Погоджуюся з розсилкою та приймаю <a href="">Умови договору</a>
+            <span class="checkbox">
+                <svg class="checkbox-icon" href="./images/sprite.svg#icon-uncheck">
+                <use></use>
+            </svg></span>
+            <span class="checkfield-text">Погоджуюся з розсилкою та приймаю</span> <a href="" class="checkfield-policy">Умови договору</a>
         </label>
         <button type="submit" class="modal-form-submit">Відправити</button>
      </form>

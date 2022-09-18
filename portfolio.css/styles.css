@@ -3,6 +3,7 @@
     --secondary-main-color:#2F303A;
     --logo-color-1:#2196F3;
     --logo-color-2:#000000;
+    --button-color-2: #188CE8;
     --logo-color-2-footer:#FFFFFF;
     --title-color:#212121;
     --text-color:#757575;
@@ -131,6 +132,7 @@ a {
     padding-top: 32px;
     padding-bottom: 32px;
     display: inline-block;
+    transition: color var(--timing);
 }
 
 .studio-link:focus {
@@ -139,7 +141,6 @@ a {
     line-height: 1.7;
     letter-spacing: 0.02em;
     color: var(--logo-color-1);
-    transition: var(--timing);
 
 }
 
@@ -151,7 +152,6 @@ a {
     line-height: 1.7;
     letter-spacing: 0.02em;
     color: var(--logo-color-1);
-    transition: var(--timing);
 }
 
 .portfolio-item {
@@ -171,6 +171,7 @@ a {
     padding-top: 32px;
     padding-bottom: 32px;
     display: inline-block;
+    transition: color var(--timing);
 }
 
 .portfolio-link:focus {
@@ -179,7 +180,6 @@ a {
     line-height: 1.7;
     letter-spacing: 0.02em;
     color: var(--logo-color-1);
-    transition: var(--timing);
 }
 
 .portfolio-link:hover {
@@ -190,7 +190,6 @@ a {
     line-height: 1.7;
     letter-spacing: 0.02em;
     color: var(--logo-color-1);
-    transition: var(--timing);
 
 
 }
@@ -209,6 +208,7 @@ a {
     padding-top: 32px;
     padding-bottom: 32px;
     display: inline-block;
+    transition: color var(--timing);
 
 }
 
@@ -218,7 +218,6 @@ a {
     line-height: 1.7;
     letter-spacing: 0.02em;
     color: var(--logo-color-1);
-    transition: var(--timing);
 }
 
 .contacts-link:hover {
@@ -229,7 +228,6 @@ a {
     line-height: 1.7;
     letter-spacing: 0.02em;
     color: var(--logo-color-1);
-    transition: var(--timing);
 
 }
 
@@ -276,8 +274,8 @@ a {
 }
 
 .icon-phone {
-    width: 16px;
-    height: 12px;
+    width: 10px;
+    height: 16px;
     margin-right: 10px;
     
 }
@@ -285,13 +283,11 @@ a {
 .email:hover,
 .email:focus .icon-envelope {
     fill: var(--logo-color-1);
-    transition: var(--timing);
 }
 
 .phone:hover,
 .phone:focus .icon-phone {
     fill: var(--logo-color-1);
-    transition: var(--timing);
 }
 
 
@@ -307,6 +303,7 @@ a {
     padding-bottom: 32px;
     display: inline-block;
     fill: var(--text-color);
+    transition: fill var(--timing),color var(--timing);
 
 }
 
@@ -318,7 +315,6 @@ a {
     letter-spacing: 0.02em;
     color: var(--logo-color-1);
     fill: var(--logo-color-1);
-    transition: var(--timing);
 }
 
 .email:hover {
@@ -329,7 +325,6 @@ a {
     letter-spacing: 0.02em;
     color: var(--logo-color-1);
     fill: var(--logo-color-1);
-    transition: var(--timing);
 }
 
 
@@ -347,6 +342,7 @@ a {
     padding-bottom: 32px;
     display: inline-block;
     fill: var(--text-color);
+    transition: fill var(--timing),color var(--timing);
 }
 
 .phone:focus {
@@ -356,7 +352,6 @@ a {
     line-height: 1.7;
     letter-spacing: 0.02em;
     color: var(--logo-color-1);
-    transition: var(--timing);
 }
 
 .phone:hover {
@@ -366,7 +361,6 @@ a {
     line-height: 1.7;
     letter-spacing: 0.02em;
     color: var(--logo-color-1);
-    transition: var(--timing);
 
 }
 
@@ -427,9 +421,8 @@ a {
     text-align: center;
     letter-spacing: 0.03em;
     color:var(--title-color);;
-
-    
     padding: 8px 22px;
+    transition: background-color var(--timing),box-shadow var(--timing),color var(--timing);
     
         
 }
@@ -452,7 +445,6 @@ a {
 
         padding: 8px 22px;
         box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-        transition: var(--timing);
 
 }
 
@@ -470,7 +462,6 @@ a {
         letter-spacing: 0.03em;
         color: var(--logo-color-2-footer);
         box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-        transition: var(--timing);
 
 }
 
@@ -491,6 +482,7 @@ a {
     
     margin-right: 8px;
     padding: 8px 22px;
+        transition: background-color var(--timing), box-shadow var(--timing), color var(--timing);
     
 }
 
@@ -512,7 +504,6 @@ a {
 
     padding: 8px 22px;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    transition: var(--timing);
 
 }
 
@@ -531,7 +522,6 @@ a {
     letter-spacing: 0.03em;
     color: var(--logo-color-2-footer);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    transition: var(--timing);
 
 }
 
@@ -552,6 +542,7 @@ a {
 
     margin-right: 8px;
     padding: 8px 22px;
+        transition: background-color var(--timing), box-shadow var(--timing), color var(--timing);
 
     
 }
@@ -574,7 +565,6 @@ a {
 
         padding: 8px 22px;
         box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-        transition: var(--timing);
 
 }
 
@@ -593,7 +583,6 @@ a {
         letter-spacing: 0.03em;
         color: var(--logo-color-2-footer);
         box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-        transition: var(--timing);
 
 }
 
@@ -614,6 +603,7 @@ a {
 
     margin-right: 8px;
     padding: 8px 22px;
+        transition: background-color var(--timing), box-shadow var(--timing), color var(--timing);
 }
 
 .filter-button4:hover {
@@ -634,7 +624,6 @@ a {
 
         padding: 8px 22px;
         box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-        transition: var(--timing);
 
 }
 
@@ -653,7 +642,6 @@ a {
         letter-spacing: 0.03em;
         color: var(--logo-color-2-footer);
         box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-        transition: var(--timing);
 
 }
 
@@ -673,6 +661,7 @@ a {
     color: var(--title-color);
 
     padding: 8px 22px;
+        transition: background-color var(--timing), box-shadow var(--timing), color var(--timing);
     
     
 }
@@ -695,7 +684,6 @@ a {
 
     padding: 8px 22px;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    transition: var(--timing);
 
 }
 
@@ -714,7 +702,6 @@ a {
     letter-spacing: 0.03em;
     color: var(--logo-color-2-footer);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    transition: var(--timing);
 
 }
 
@@ -886,6 +873,7 @@ a {
      color: var(--logo-color-2-footer);
 
      margin-bottom: 9px;
+     transition: color var(--timing);
  }
 
  .address-contact-info {
@@ -896,6 +884,7 @@ a {
      line-height: 1.7;
 
      color: rgba(255, 255, 255, 0.6);
+     transition: color var(--timing);
 
 
 
@@ -928,7 +917,7 @@ a {
      font-weight: 400;
      font-size: 14px;
      line-height: 1.7;
-     color: var(--logo-color-1)
+     color: var(--logo-color-1);
  }
 
  .footer-social-links {
@@ -972,6 +961,7 @@ a {
      justify-content: center;
      border-radius: 50%;
      background-color: rgba(255, 255, 255, 0.1);
+     transition: fill var(--timing),background-color var(--timing);
  }
 
  .social-list-link-footer:hover,
@@ -984,4 +974,75 @@ a {
      align-items: baseline;
 
 
+ }
+
+ .sub-form {
+     margin-left: 93px;
+ }
+
+ .input-button {
+     display: flex;
+
+ }
+
+
+
+ .sub-quote {
+     font-weight: 700;
+     font-size: 14px;
+     line-height: 16px;
+     letter-spacing: 0.03em;
+     text-transform: uppercase;
+
+     color: var(--main-color);
+     margin-bottom: 20px;
+
+ }
+
+ .modal-form-sub-input {
+     width: 100%;
+     height: 50px;
+     padding-top: 15px;
+     padding-bottom: 15px;
+     padding-left: 16px;
+     border: 1px solid rgba(255, 255, 255, 0.3);
+     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+     border-radius: 4px;
+     background-color: transparent;
+     outline: none;
+     margin-right: 12px;
+ }
+
+ .modal-form-sub-submit {
+     width: 200px;
+     height: 50px;
+     background: #2196F3;
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+     border-radius: 4px;
+     border: none;
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 30px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     letter-spacing: 0.06em;
+
+     color: var(--main-color);
+     transition: background-color var(--timing);
+
+ }
+
+ .sub-icon {
+
+     width: 24px;
+     height: 24px;
+     margin-left: 10px;
+
+ }
+
+ .modal-form-sub-submit:hover,
+ .modal-form-sub-submit:focus {
+    background-color: var(--button-color-2);
  }
