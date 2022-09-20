@@ -996,11 +996,12 @@ a {
 
      color: var(--main-color);
      margin-bottom: 20px;
+     margin-top: 0px;
 
  }
 
  .modal-form-sub-input {
-     width: 100%;
+     width: 348px;
      height: 50px;
      padding-top: 15px;
      padding-bottom: 15px;
