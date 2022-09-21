@@ -1011,10 +1011,15 @@ a {
      border-radius: 4px;
      background-color: transparent;
      outline: none;
-     margin-right: 12px;
+     
+ }
+
+ .sub-input-wrapper{
+    margin-right: 12px;
  }
 
  .modal-form-sub-submit {
+    cursor:pointer;
      width: 200px;
      height: 50px;
      background: #2196F3;
