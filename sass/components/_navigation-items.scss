@@ -1,0 +1,150 @@
+.studio-item {
+    margin-right: 50px;
+    display: inline-block;
+}
+
+
+.studio-link {
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.02em;
+
+    color: var(--title-color);
+
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: inline-block;
+}
+
+.studio-link:focus {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.02em;
+    color: var(--logo-color-1);
+    transition: var(--timing);
+
+}
+
+.studio-link:hover {
+    cursor: pointer;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.02em;
+    color: var(--logo-color-1);
+    transition: var(--timing);
+}
+
+.portfolio-item {
+    margin-right: 50px;
+    display: inline-block;
+}
+
+.portfolio-link {
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.02em;
+
+    color: var(--title-color);
+
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: inline-block;
+    transition: color var(--timing);
+}
+
+.portfolio-link:focus {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.02em;
+    color: var(--logo-color-1);
+
+}
+
+.portfolio-link:hover {
+    cursor: pointer;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.02em;
+    color: var(--logo-color-1);
+
+
+
+}
+
+.contacts-item {
+    display: inline-block;
+}
+
+.contacts-link {
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: inline-block;
+    transition: color var(--timing);
+
+}
+
+
+
+
+
+.contacts-link:focus {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.02em;
+    color: var(--logo-color-1);
+
+}
+
+.contacts-link:hover {
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.02em;
+    color: var(--logo-color-1);
+
+
+}
+
+.studio-link,
+.current {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.02em;
+    color: var(--logo-color-1);
+
+}
+
+.current::after {
+    content: '';
+    display: block;
+    width: 48px;
+    height: 4px;
+    background-color: var(--logo-color-1);
+    position: absolute;
+    opacity: 1;
+    border-radius: 2px;
+    margin-top: 28px;
+    top: 76;
+    left: 451;
+
+}
