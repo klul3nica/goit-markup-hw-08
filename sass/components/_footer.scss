@@ -72,6 +72,18 @@
 
     margin-bottom: 9px;
     transition: color var(--timing);
+
+    &:hover,&:focus {
+            cursor: pointer;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.7;
+            color: var(--logo-color-1);
+    
+    
+        }
 }
 
 .address-contact-info {
@@ -84,39 +96,20 @@
     color: rgba(255, 255, 255, 0.6);
     transition: color var(--timing);
 
-
-
-}
-
-.address-info:hover {
-    cursor: pointer;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    color: var(--logo-color-1);
-
+    &:hover,&:focus {
+            cursor: pointer;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.7;
+            color: var(--logo-color-1);
+    
+    
+        }
 
 }
 
-.address-contact-info:hover {
-    cursor: pointer;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    color: var(--logo-color-1);
 
 
-}
 
-.address-contact-info:focus {
 
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    color: var(--logo-color-1);
-
-}

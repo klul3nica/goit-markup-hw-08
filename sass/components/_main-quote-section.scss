@@ -50,34 +50,17 @@
     display: block;
     transition: background-color var(--timing);
 
-
-
-
-}
-
-.order-button:hover {
-    font-family: inherit;
-    cursor: pointer;
-    width: 216px;
-    height: 50px;
-    background-color: var(--button-color-2);
-    border-radius: 4px;
-    border: none;
-    text-align: center;
-
-
-
-
-}
-
-.order-button:focus {
-    font-family: inherit;
-    width: 21.1;
-    height: 50px;
-    background-color: var(--button-color-2);
-    border-radius: 4px;
-    border: none;
-    text-align: center;
+    &:hover,&:focus {
+            font-family: inherit;
+            cursor: pointer;
+            width: 216px;
+            height: 50px;
+            background-color: var(--button-color-2);
+            border-radius: 4px;
+            border: none;
+            text-align: center;
+    
+        }
 
 
 }

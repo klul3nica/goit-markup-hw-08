@@ -22,6 +22,17 @@
     fill: var(--text-color);
     transition: color var(--timing), fill var(--timing);
 
+    &:hover,&:focus {
+            cursor: pointer;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 1.7;
+            letter-spacing: 0.02em;
+            color: var(--logo-color-1);
+            fill: var(--logo-color-1);
+    
+    
+        }
 
 }
 
@@ -30,54 +41,24 @@
     height: 12px;
     margin-right: 10px;
 
+    .email:hover,
+        .email:focus &{
+            fill: var(--logo-color-1);
+    
+        }
 }
 
 .icon-phone {
     width: 10px;
     height: 16px;
     margin-right: 10px;
+
+    .phone:hover,
+        .phone:focus & {
+            fill: var(--logo-color-1);
+            transition: var(--timing);
+        }
 }
-
-.email:hover,
-.email:focus .icon-envelope {
-    fill: var(--logo-color-1);
-
-}
-
-.phone:hover,
-.phone:focus .icon-phone {
-    fill: var(--logo-color-1);
-    transition: var(--timing);
-}
-
-
-
-
-.email:focus {
-
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.02em;
-    color: var(--logo-color-1);
-    fill: var(--logo-color-1);
-
-
-}
-
-.email:hover {
-    cursor: pointer;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.02em;
-    color: var(--logo-color-1);
-    fill: var(--logo-color-1);
-
-
-}
-
-
 
 
 .phone {
@@ -95,27 +76,19 @@
     display: inline-block;
     fill: var(--text-color);
     transition: color var(--timing), fill var(--timing);
+
+    &:hover,&:focus {
+            cursor: pointer;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 1.7;
+            letter-spacing: 0.02em;
+            color: var(--logo-color-1);
+            fill: var(--logo-color-1);
+    
+    
+        }
 }
 
-.phone:focus {
-
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.02em;
-    color: var(--logo-color-1);
-    fill: var(--logo-color-1);
-
-}
-
-.phone:hover {
-
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.02em;
-    color: var(--logo-color-1);
-    fill: var(--logo-color-1);
 
 
-}

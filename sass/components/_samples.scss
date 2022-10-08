@@ -13,12 +13,14 @@
     transform: translateY(100%);
     margin-top: 0px;
     transition: transform 250ms linear;
+
+    .sample-link:hover &,
+    .sample-link:focus & {
+            transform: translateY(0%);
+        }
 }
 
-.sample-link:hover .overlay,
-.sample-link:focus .overlay {
-    transform: translateY(0%);
-}
+
 
 .sample-list-img-wrapper {
     position: relative;

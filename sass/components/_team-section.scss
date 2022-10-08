@@ -15,31 +15,22 @@
     border-radius: 50%;
     background-color: transparent;
     transition: background-color var(--timing), fill var(--timing);
+
+    &:hover,&:focus {
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            background-color: var(--button-color-2);
+            fill: var(--main-color);
+    
+        }
 }
 
-.social-list-link:hover {
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    background-color: var(--button-color-2);
-    fill: var(--main-color);
 
-}
 
-.social-list-link:focus {
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    background-color: var(--button-color-2);
-    fill: var(--main-color);
 
-}
 
-.social-list-link:hover,
-.social-list-link:focus .social-list-icon {
-    fill: #FFFFFF;
 
-}
 
 .social-list-icon {
 
@@ -48,6 +39,11 @@
     justify-content: center;
     transition: fill var(--timing);
 
+    .social-list-link:hover,
+        .social-list-link:focus & {
+            fill: #FFFFFF;
+    
+        }
 }
 
 .team {
