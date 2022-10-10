@@ -72,7 +72,7 @@ a {
     
 }
 
-.logo-el-1 {
+.logo-top-line__el-1 {
     color: var(--logo-color-1);
     font-family: 'Raleway',sans-serif;
     font-weight: 700;
@@ -80,7 +80,7 @@ a {
     line-height: 1.2;
 }
 
-.logo-el-2 {
+.logo-top-line__el-2 {
     color: var(--logo-color-2);
     font-family: 'Raleway',sans-serif;
     font-weight: 700;
@@ -222,7 +222,7 @@ a {
 
 }
 
-.studio-link,.current {
+.studio-link,.studio-link_current {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.7;

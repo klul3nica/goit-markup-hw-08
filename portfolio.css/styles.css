@@ -198,7 +198,7 @@ a {
 }
 
 .portfolio-link,
-.current {
+.portfolio-link_current {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.7;
