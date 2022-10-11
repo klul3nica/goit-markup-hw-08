@@ -206,7 +206,7 @@ a {
   color: var(--logo-color-1);
 }
 
-.current::after {
+.portfolio-link_current::after {
   content: "";
   display: block;
   width: 78px;
@@ -316,7 +316,7 @@ a {
 .portfolio-content {
   padding-top: 94px;
   padding-bottom: 94px;
-  margin-bottom: 94px;
+  
 }
 
 .hidden {
@@ -875,7 +875,7 @@ a {
 }
 
 .sub-form {
-  margin-left: 93px;
+  margin-left: auto;
 }
 
 .input-button {
@@ -905,6 +905,7 @@ a {
   border-radius: 4px;
   background-color: transparent;
   outline: none;
+  color: var(--main-color);
 }
 
 .sub-input-wrapper {
