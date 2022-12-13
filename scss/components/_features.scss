@@ -1,0 +1,102 @@
+.f-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+}
+
+.f-icon {
+    width: 70px;
+    height: 70px;
+
+
+}
+
+.work-features {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.features {
+    list-style-type: none;
+    display: flex;
+
+}
+
+.features-container {
+
+    padding-left: 215px;
+    padding-right: 215px;
+}
+
+.feature1 {
+    width: 270px;
+
+
+
+
+
+}
+
+.feature2 {
+    width: 270px;
+
+    margin-left: 30px;
+
+}
+
+.feature3 {
+    width: 270px;
+
+    margin-left: 30px;
+
+}
+
+.feature4 {
+    width: 270px;
+
+
+
+    margin-left: 30px;
+
+}
+
+
+.f-name {
+
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.7;
+    text-transform: uppercase;
+    color: var(--title-color);
+
+    margin-top: 30px;
+
+}
+
+.f-descr {
+
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--text-color);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}

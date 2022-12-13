@@ -1,0 +1,84 @@
+.overlay {
+    position: absolute;
+    height: 100%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+    background-color: rgba(33, 150, 243, 0.9);
+    top: 0;
+    left: 0;
+    padding: 63px 24px;
+    transform: translateY(100%);
+    margin-top: 0px;
+    transition: transform 250ms linear;
+}
+
+.sample-link:hover .overlay,
+.sample-link:focus .overlay {
+    transform: translateY(0%);
+}
+
+.sample-list-img-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.sample-link:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+        1px 4px 6px rgba(0, 0, 0, 0.16);
+    transition: var(--timing);
+}
+
+.sample-link:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+        1px 4px 6px rgba(0, 0, 0, 0.16);
+    transition: var(--timing);
+}
+
+.samples-list {
+    list-style-type: none;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.sample {
+    flex-basis: calc((1170px-60px) / 3);
+    border: 1em;
+}
+
+.sample-text {
+    padding: 20px 24px;
+    border-bottom: 1px solid #eeeeee;
+    border-left: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+}
+
+.sample-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-color);
+    margin-top: 0px;
+    margin-bottom: 4px;
+}
+
+.sample-descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+    margin: 0px;
+}
