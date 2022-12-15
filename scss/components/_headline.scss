@@ -81,6 +81,15 @@ a {
     display: inline-block;
 }
 
+.portfolio-link,
+.portfolio-link_current {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.02em;
+    color: var(--logo-color-1);
+}
+
 .studio-link:focus {
     font-weight: 500;
     font-size: 14px;
