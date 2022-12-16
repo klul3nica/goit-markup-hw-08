@@ -261,7 +261,9 @@
     color: var(--main-color);
     transition: background-color var(--timing);
 
-
+    &:hover,&:focus{
+        background-color: var(--button-color-2);
+    }
 }
 
 .sub-icon {
@@ -272,11 +274,7 @@
 
 }
 
-.modal-form-sub-submit:hover,
-.modal-form-sub-submit:focus {
-    background-color: var(--button-color-2);
 
-}
 
 
 

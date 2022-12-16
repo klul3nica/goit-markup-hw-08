@@ -53,7 +53,7 @@
 }
 
 .sample {
-    flex-basis: calc((1170px-60px) / 3);
+    flex-basis: calc((1170px - 60px) / 3);
     border: 1em;
 }
 
@@ -82,3 +82,4 @@
     color: var(--text-color);
     margin: 0px;
 }
+

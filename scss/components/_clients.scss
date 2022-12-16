@@ -37,14 +37,14 @@
     justify-content: center;
     fill: #AFB1B8;
     transition: fill var(--timing), border-color var(--timing);
+
+    &:hover,&:focus {
+        fill: var(--logo-color-1);
+        border-color: var(--logo-color-1);
+    }
 }
 
-.clients-link:hover,
-.clients-link:focus {
-    fill: var(--logo-color-1);
-    border-color: var(--logo-color-1);
 
-}
 
 .clients-icon {
     width: 106px;
