@@ -3,7 +3,8 @@
 
 <head>
 
-    <meta charset="utf-8">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Студія</title>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,7 +26,7 @@
 
     <header class="top-line">
 
-        <div class="container-header">
+        <div class="container-header page-header__container">
 
         <nav class="navigation">
 
@@ -42,6 +43,28 @@
             </ul>
 
         </nav>
+
+        <button type="button" class="open-mobile-menu-btn " js-open-menu>
+            <svg class="open-mobile-menu-btn__icon">
+                <use href="./images/sprite.svg#icon-menu_40px"></use>
+            </svg>
+        </button>
+
+        </div>
+
+        <div class="mobile-menu" js-menu-container>
+            <div class="container-header mobile-menu__container">
+                <button type="button" class="mobile-menu__close-btn " js-close-menu>
+                    <svg class="mobile-menu__close-icon">
+                        <use href="./images/sprite.svg#close-button-icon"></use>
+                    </svg>
+                </button>
+                <ul>
+                    <li><a class="link" href="">Студія</a></li>
+                    <li><a class="link" href="">Портфоліо</a></li>
+                    <li><a class="link" href="">Контакти</a></li>
+                </ul>
+            </div>
 
         <ul class="contact-info">
 
@@ -66,7 +89,7 @@
 
         <!--Шапка-->
 
-        <section class="quote-section">
+        <!--<section class="quote-section">
 
             <div class="container">
 
@@ -75,13 +98,13 @@
 
             </div>
 
-        </section>
+        </section> -->
 
 
 
         <!--Особливості-->
 
-        <section class="work-features">
+        <!--<section class="work-features">
 
             <div class="container">
 
@@ -125,11 +148,11 @@
 
             </div>
 
-        </section>
+        </section>-->
 
         <!--Чим ми займаємося-->
 
-        <section class="occupation">
+        <!--<section class="occupation">
 
             <div class="container">
 
@@ -161,11 +184,11 @@
 
             </div>
 
-        </section>
+        </section>-->
 
         <!--Наша команда-->
 
-        <section class="team">
+        <!--<section class="team">
 
             <div class="container">
 
@@ -330,9 +353,9 @@
                         
 
             </div>
-        </section>
+        </section>-->
 
-        <section class="clients-section">
+        <!--<section class="clients-section">
             <div class="container">
                 <h2 class="clients-title">Постійні клієнти</h2>
                 <ul class="clients-list">
@@ -370,13 +393,13 @@
 
                 </ul>
             </div>
-        </section>
+        </section>-->
 
     </main>
 
     <!--Підвал-->
 
-    <footer class="basement">
+    <!--<footer class="basement">
 
         
 
@@ -458,9 +481,9 @@
 
         
 
-    </footer>
+    </footer>-->
 
-   <div class="backdrop is-hidden" data-modal >
+   <!--<div class="backdrop is-hidden" data-modal >
     <div class="modal">
         <button type="button" class="close-button" data-modal-close><svg class="close-button-icon">
             <use href="./images/sprite.svg#close-button-icon" ></use>
@@ -508,8 +531,9 @@
         <button type="submit" class="modal-form-submit">Відправити</button>
      </form>
     </div>
-   </div> 
-   <script src="./js/modal.js"></script>
+   </div> -->
+   <!--<script src="./js/modal.js"></script>-->
+   <script src="./js/menu.js"></script>
 </body>
 
 </html>
