@@ -44,7 +44,7 @@
 
         </nav>
 
-        <button type="button" class="open-mobile-menu-btn " js-open-menu>
+        <button type="button" class="open-mobile-menu-btn js-open-menu" >
             <svg class="open-mobile-menu-btn__icon">
                 <use href="./images/sprite.svg#icon-menu_40px"></use>
             </svg>
@@ -52,20 +52,30 @@
 
         </div>
 
-        <div class="mobile-menu" js-menu-container>
+        <div class="mobile-menu js-menu-container" >
             <div class="container-header mobile-menu__container">
-                <button type="button" class="mobile-menu__close-btn " js-close-menu>
+                <button type="button" class="mobile-menu__close-btn js-close-menu" >
                     <svg class="mobile-menu__close-icon">
                         <use href="./images/sprite.svg#close-button-icon"></use>
                     </svg>
                 </button>
-                <ul>
-                    <li><a class="link" href="">Студія</a></li>
-                    <li><a class="link" href="">Портфоліо</a></li>
-                    <li><a class="link" href="">Контакти</a></li>
+                <ul class="mobile-menu-nav">
+                    <li class="studio-mob-item"><a class="studio-mob-link" href="./index.html">Студія</a></li>
+                    <li class="portfolio-mob-item"><a class="portfolio-mob-link" href="./portfolio.html">Портфоліо</a></li>
+                    <li class="contacts-mob-item"><a class="contacts-mob-link" href="">Контакти</a></li>
+                </ul>
+                <ul class="mobile-menu-contacts">
+                    <li><a href="tel:+380961111111" class="mobile-tel">+38 096 111 11 11</a></li>
+                    <li class="mob-email-item"><a href="mailto:info@devstudio.com" class="mobile-email">info@devstudio.com</a></li>
+                </ul>
+                <ul class="mobile-menu-social">
+                    <li class="social-item"><a class="social-link" href="">Instagram</a></li>
+                    <li class="social-item social-space"><a class="social-link" href="">Twitter</a></li>
+                    <li class="social-item social-space"><a class="social-link" href="">Facebook</a></li>
+                    <li class="social-item social-space"><a class="social-link" href="">Linkedin</a></li>
                 </ul>
             </div>
-
+        </div>
         <ul class="contact-info">
 
             <li class="email-item"><a href="mailto:info@devstudio.com" class="email"><svg aria-label="конверт"  class="icon-envelope">
@@ -77,7 +87,7 @@
 
         </ul>
 
-        </div>
+        
 
     </header>
 
