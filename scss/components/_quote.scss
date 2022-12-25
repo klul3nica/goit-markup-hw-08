@@ -1,6 +1,28 @@
+@media screen and (min-width: 480px) {
+    .container {
+        width: 448px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 720px;
+
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1200px;
+
+    }
+}
+
 /*Стилі Шапка*/
 
-.quote-section {
+/*.quote-section {
     background-color: var(--secondary-main-color);
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bg.jpg);
 
@@ -84,7 +106,7 @@
 
 /*Особливості*/
 
-.f-container {
+/*.f-container {
     display: flex;
     align-items: center;
     justify-content: center;
