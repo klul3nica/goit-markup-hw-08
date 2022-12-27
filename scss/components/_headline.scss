@@ -374,7 +374,7 @@ a {
  }
 
  @media screen and (min-width: 480px) {
-    .container-header{
+    .container{
         width: 448px;
         margin-left: auto;
         margin-right: auto;
@@ -382,14 +382,14 @@ a {
  }
 
  @media screen and (min-width: 768px) {
-     .container-header {
+     .container {
          width: 720px;
         
      }
  }
 
  @media screen and (min-width: 1200px) {
-     .container-header {
+     .container {
          width: 1200px;
         
      }
