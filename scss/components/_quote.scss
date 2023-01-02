@@ -2,14 +2,15 @@
 .quote-section {
     background-color: var(--secondary-main-color);
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/bg-mob-1x.jpg);
+    
 
-
-    display: flex;
-    flex-direction: column;
+   
     align-items: center;
 
     padding-top: 118px;
     padding-bottom: 118px;
+    display: flex;
+    flex-direction: column;
     
     margin: auto;
     background-size: cover;
@@ -18,8 +19,7 @@
 .quote {
     width: 360px;
     height: 84px;
-    left: 60px;
-    top: 178px;
+    
 
     font-family: 'Roboto';
     font-style: normal;
@@ -79,7 +79,40 @@
 }
 
 
+@media screen and (min-width: 768px){
+    .quote-section {
+        background-color: var(--secondary-main-color);
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/bg-tab-1x.jpg);
+    }
+}
 
+@media screen and (min-width: 1200px){
+    .quote-section {
+        background-color: var(--secondary-main-color);
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/bg.jpg);
+        display: block;
+        direction:column ;
+        height: 600px;
+        padding-top: 170px;
+        
+        
+    }
+
+    .quote{
+        font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 44px;
+            line-height: 60px;
+            width: 696px;
+            margin-bottom: 60px;
+            text-align: center;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+    }
+
+    
+}
 
 @media screen and (min-width: 480px) {
     .container {
