@@ -355,17 +355,14 @@ a {
     }   
 
 
-    .container-header{
-    max-width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
     
- }
 
  .page-header__container{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 276px;
  }
 
  .top-line{
@@ -383,15 +380,15 @@ a {
 
  @media screen and (min-width: 768px) {
      .container {
-         width: 720px;
+        width: 720px;
         
      }
  }
 
  @media screen and (min-width: 1200px) {
      .container {
-         width: 1200px;
-        
+        width: 1200px;
+
      }
  }
 
@@ -402,7 +399,6 @@ a {
 
         .logo-top-line {
     
-            margin: 0;
             padding-top: 24px;
             padding-bottom: 25px;
     
@@ -707,18 +703,9 @@ a {
             margin: 0px;
         }
     
-        .container-header {
-            display: flex;
-            padding-left: 15px;
-            padding-right: 15px;
-            margin-left: auto;
-            margin-right: auto;
-            width: 1200px;
-        }
+        
     
-        .top-line {
-            border-bottom: 1px solid var(--border-header);
-        }
+        
     
     
         a {
@@ -936,7 +923,7 @@ a {
         .contact-info {
             list-style: none;
             display: flex;
-            margin-left: auto;
+            
             gap: 50px;
     
     
