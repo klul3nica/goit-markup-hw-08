@@ -1,4 +1,55 @@
+.social-list-icon-footer {
+    fill: #FFFFFF;
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+}
 
+.basement{
+    
+    width: 100%;
+}
+
+
+
+.input-button{
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-form-sub-submit {
+    margin-top: 10px;
+    width: 200px;
+    height: 50px;
+    background: #2196F3;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: var(--main-color);
+    transition: background-color var(--timing);
+
+    &:hover,
+    &:focus {
+        background-color: var(--button-color-2);
+    }
+}
+
+.sub-icon {
+
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+
+}
 
 /*.basement {
 
@@ -177,5 +228,70 @@
     display: flex;
     align-items: baseline;
 
+
+}
+
+.sub-quote {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--main-color);
+    margin-bottom: 20px;
+    margin-top: 0px;
+
+}
+
+.modal-form-sub-input {
+    width: 348px;
+    height: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: transparent;
+    outline: none;
+    color: var(--main-color);
+
+}
+
+.sub-input-wrapper {
+    margin-right: 12px;
+}
+
+.modal-form-sub-submit {
+    width: 200px;
+    height: 50px;
+    background: #2196F3;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: var(--main-color);
+    transition: background-color var(--timing);
+
+    &:hover,
+    &:focus {
+        background-color: var(--button-color-2);
+    }
+}
+
+.sub-icon {
+
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
 
 }*/

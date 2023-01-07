@@ -370,26 +370,7 @@ a {
     padding-bottom: 15px;
  }
 
- @media screen and (min-width: 480px) {
-    .container{
-        width: 448px;
-        
-    }
- }
 
- @media screen and (min-width: 768px) {
-     .container {
-        width: 720px;
-        
-     }
- }
-
- @media screen and (min-width: 1200px) {
-     .container {
-        width: 1200px;
-
-     }
- }
 
  @media screen and (min-width: 767px) {
     .open-mobile-menu-btn{
