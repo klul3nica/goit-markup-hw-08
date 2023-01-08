@@ -1,3 +1,25 @@
+.logof-el-1 {
+    color: var(--logo-color-1);
+    font-family: 'Raleway', sans-serif;
+
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+
+
+}
+
+.logof-el-2 {
+    color: var(--logo-color-2-footer);
+    font-family: 'Raleway', sans-serif;
+
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+
+
+}
+
 .social-list-icon-footer {
     fill: #FFFFFF;
     width: 20px;
@@ -6,7 +28,7 @@
 }
 
 .basement{
-    
+    background-color: var(--secondary-main-color);
     width: 100%;
 }
 
@@ -49,6 +71,11 @@
     height: 24px;
     margin-left: 10px;
 
+}
+
+.address-list {
+    list-style-type: none;
+    gap: 9px;
 }
 
 /*.basement {
